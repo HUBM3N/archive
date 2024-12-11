@@ -1,0 +1,67 @@
+"Resource/UI/HudItemEffectMeter.res"
+{
+	"HudItemEffectMeter"
+	{
+		"fieldName"									"HudItemEffectMeter"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"0"
+		"wide"										"f0"
+		"tall"										"f0"
+		"visible"									"1"
+		"enabled"									"1"
+		"alpha" "255"
+	}
+	"ItemEffectMeter"
+	{
+		"ControlName"								"ContinuousProgressBar"
+		"fieldName"									"ItemEffectMeter"
+		"xpos"										"r72"
+		"ypos"										"r34"
+		"zpos"										"0"
+		"wide"										"60"
+		"tall"										"5"
+		"visible"									"1"
+		"enabled"									"1"
+		"proportionaltoparent"						"1"
+		"bgcolor_override" "Black"
+		"alpha" "185"
+	}
+				"modulate"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"modulate"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"5"
+		"wide"										"60"
+		"tall"										"5"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"Replay/thumbnails/modulate"
+		"scaleImage"	"1"	
+		"pin_to_sibling" "ItemEffectMeter"
+
+		"drawcolor" "QuestMap_ActiveOrange"
+
+	}
+	"ItemEffectMeterLabel"
+	{
+		"ControlName"								"CExLabel"
+		"fieldName"									"ItemEffectMeterLabel"
+		"xpos"										"0"
+		"ypos"										"-4"
+		"zpos"										"2"
+		"wide"										"60"
+		"tall"										"12"
+		"visible"									"1"
+		"enabled"									"0"
+		"proportionaltoparent"						"1"
+		"labelText"									"#TF_Ball"
+		"textAlignment"								"east"
+		"font"										"hudfontsmallest"
+		"disabledfgcolor2_override"					"QuestMap_ActiveOrange"
+		"pin_to_sibling" "ItemEffectMeter"
+		"alpha" "185"
+	}
+}

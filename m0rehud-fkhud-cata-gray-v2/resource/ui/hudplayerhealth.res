@@ -49,8 +49,8 @@
 		"tall"										"24"
 		"visible"									"0"
 		"enabled"									"1"
-		//"image"										"../hud/health_over_bg"
-		"image"										"replay/thumbnails/over"
+		"image"										"../hud/health_over_bg"
+		//"image"										"replay/thumbnails/over"
 		"scaleImage"								"1"
 	}
 

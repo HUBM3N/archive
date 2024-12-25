@@ -13,7 +13,7 @@
 		"tall"										"20"
 		"MeterFG"									"White"
 		"MeterBG"									"Gray"
-		"alpha" "195"
+		"alpha" "255"
 	}
 	"ItemEffectMeterLabel"
 	{

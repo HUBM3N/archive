@@ -15,7 +15,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"drawcolor" "Health hurt"
-	"alpha" "195"}	
+	 }	
 		"overlay1"
 	{
 		"ControlName"	"ImagePanel"
@@ -30,7 +30,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"fillcolor" "0 0 0 255"
-	"alpha" "195"}	
+	 }	
 	"HudPlayerStatus"
 	{
 		"fieldName"									"HudPlayerStatus"
@@ -40,8 +40,8 @@
 		"ypos"										"0"
 		"wide"										"f0"
 		"tall"										"480"
-		"alpha" "195"
-	"alpha" "195"}
+		 
+	 }
 	"HudWeaponAmmo"
 	{
 		"fieldName"									"HudWeaponAmmo"
@@ -51,8 +51,8 @@
 		"ypos"										"0"
 		"wide"										"f0"
 		"tall"										"f0"
-		"alpha" "195"
-	"alpha" "195"}
+		 
+	 }
 	"HudObjectiveStatus"
 	{
 		"fieldName"									"HudObjectiveStatus"
@@ -62,8 +62,8 @@
 		"ypos"										"0"
 		"wide"										"f0"
 		"tall"										"480"
-		"alpha" "195"
-	"alpha" "195"}
+		 
+	 }
 	"HudKothTimeStatus"
 	{
 		"fieldName"									"HudKothTimeStatus"
@@ -76,8 +76,8 @@
 
 		"blue_active_xpos"							"4"
 		"red_active_xpos"							"42"
-		"alpha" "195"
-	"alpha" "195"}
+		 
+	 }
 	"HudItemEffectMeter"
 	{
 		"fieldName"									"HudItemEffectMeter"
@@ -89,8 +89,8 @@
 		"tall"										"50"
 		"MeterFG"									"White"
 		"MeterBG"									"Gray"
-		"alpha" "195"
-	"alpha" "195"}
+		 
+	 }
 	"HudMedicCharge"
 	{
 		"fieldName"									"HudMedicCharge"
@@ -100,8 +100,8 @@
 		"ypos"										"0"
 		"wide"										"f0"
 		"tall"										"f0"
-		"alpha" "195"
-	"alpha" "195"}
+		 
+	 }
 	"HudDemomanCharge"
 	{
 		"fieldName"									"HudDemomanCharge"
@@ -114,8 +114,8 @@
 		"tall"										"f0"
 		"MeterFG"									"White"
 		"MeterBG"									"Gray"
-		"alpha" "195"
-	"alpha" "195"}
+		 
+	 }
 	"HudBowCharge"
 	{
 		"fieldName"									"HudBowCharge"
@@ -128,7 +128,7 @@
 		"tall"										"0"
 		"MeterFG"									"White"
 		"MeterBG"									"Gray"
-	"alpha" "195"}
+	 }
 	"HudFlameRocketCharge"
 	{
 		"fieldName"									"HudFlameRocketCharge"
@@ -141,8 +141,8 @@
 		"tall"										"8"
 		"MeterFG"									"White"
 		"MeterBG"									"Gray"
-		"alpha" "195"
-	"alpha" "195"}
+		 
+	 }
 	"HudBossHealth"
 	{
 		"fieldName"									"HudBossHealth"
@@ -155,8 +155,8 @@
 		"tall"										"50"
 		"MeterFG"									"Red"
 		"MeterBG"									"Gray"
-		"alpha" "195"
-	"alpha" "195"}
+		 
+	 }
 	"HudWeaponSelection"
 	{
 		"fieldName"									"HudWeaponSelection"
@@ -190,8 +190,8 @@
 		"SelectedBoxClor"							"0 0 0 220"
 		"SelectionNumberFg"							"200 187 161 255"
 		"NumberFont"								"HudSelectionText"
-		"alpha" "195"
-	"alpha" "195"}
+		 
+	 }
 	"CHudAccountPanel"
 	{
 		"fieldName"									"CHudAccountPanel"
@@ -204,8 +204,8 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"PaintBackgroundType"						"2"
-		"alpha" "195"
-	"alpha" "195"}
+		 
+	 }
 	"CHealthAccountPanel"
 	{
 		"fieldName"									"CHealthAccountPanel"
@@ -218,8 +218,8 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"PaintBackgroundType"						"2"
-		"alpha" "195"
-	"alpha" "195"}
+		 
+	 }
 	"CDamageAccountPanel"
 	{
 		"fieldName"									"CDamageAccountPanel"
@@ -230,8 +230,8 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"PaintBackgroundType"						"2"
-		"alpha" "195"
-	"alpha" "195"}
+		 
+	 }
 	"DisguiseStatus"
 	{
 		"fieldName"									"DisguiseStatus"
@@ -242,8 +242,8 @@
 		"ypos_minmode"										"-65"
 		"wide"										"f0"
 		"tall"										"f0"
-		"alpha" "195"
-	"alpha" "195"}
+		 
+	 }
 	"CMainTargetID"
 	{
 		"fieldName"									"CMainTargetID"
@@ -254,8 +254,8 @@
 		"wide"										"252"
 		"tall"										"34"
 		"priority"									"40"
-		"alpha" "195"
-	"alpha" "195"}
+		 
+	 }
 	"CSpectatorTargetID"
 	{
 		"fieldName"									"CSpectatorTargetID"
@@ -269,8 +269,8 @@
 
 		"x_offset"									"20"
 		"y_offset"									"20"
-		"alpha" "195"
-	"alpha" "195"}
+		 
+	 }
 	"CSecondaryTargetID"
 	{
 		"fieldName"									"CSecondaryTargetID"
@@ -281,8 +281,8 @@
 		"wide"										"252"
 		"tall"										"50"
 		"priority"									"35"
-		"alpha" "195"
-	"alpha" "195"}
+		 
+	 }
 	"BuildingAnchor"
 	{
 		"ControlName"								"EditablePanel"
@@ -295,7 +295,7 @@
 		"visible"									"0"
 		"enabled"									"1"
 		"alpha"										"0"
-	"alpha" "195"}
+	 }
 	"BuildingStatus_Spy"
 	{
 		"fieldName"									"BuildingStatus_Spy"
@@ -307,8 +307,8 @@
 		"tall"										"480"
 
 		"pin_to_sibling"							"BuildingAnchor"
-		"alpha" "195"
-	"alpha" "195"}
+		 
+	 }
 	"BuildingStatus_Engineer"
 	{
 		"fieldName"									"BuildingStatus_Engineer"
@@ -320,8 +320,8 @@
 		"tall"										"480"
 
 		"pin_to_sibling"							"BuildingAnchor"
-		"alpha" "195"
-	"alpha" "195"}
+		 
+	 }
 	"HudMannVsMachineStatus"
 	{
 		"fieldName"									"HudMannVsMachineStatus"
@@ -334,8 +334,8 @@
 		"tall"										"480"
 
 		"PaintBackgroundType"						"2"
-		"alpha" "195"
-	"alpha" "195"}
+		 
+	 }
 	"CurrencyStatusPanel"
 	{
 		"ControlName"								"CCurrencyStatusPanel"
@@ -348,8 +348,8 @@
 		"enabled"									"1"
 
 		"PaintBackgroundType"						"2"
-		"alpha" "195"
-	"alpha" "195"}
+		 
+	 }
 	"HudProgressBar"
 	{
 		"fieldName"									"HudProgressBar"
@@ -363,8 +363,8 @@
 		"BorderThickness"							"1"
 
 		"PaintBackgroundType"						"2"
-		"alpha" "195"
-	"alpha" "195"}
+		 
+	 }
 	"HudRoundTimer"
 	{
 		"fieldName"									"HudRoundTimer"
@@ -374,7 +374,7 @@
 		"tall"										"40"
 		"visible"									"1"
 		"enabled"									"1"
-		"alpha" "195"
+		 
 
 		"PaintBackgroundType"						"2"
 
@@ -384,7 +384,7 @@
 		"icon_ypos"									"2"
 		"digit_xpos"								"34"
 		"digit_ypos"								"2"
-	"alpha" "195"}
+	 }
 	"HudScenarioIcon"
 	{
 		"fieldName"									"HudScenarioIcon"
@@ -394,12 +394,12 @@
 		"tall"										"44"
 		"visible"									"1"
 		"enabled"									"1"
-		"alpha" "195"
+		 
 
 		"PaintBackgroundType"						"2"
 
 		"IconColor"									"Hostage_Yellow"
-	"alpha" "195"}
+	 }
 	"HudFlashlight"
 	{
 		"fieldName"									"HudFlashlight"
@@ -409,14 +409,14 @@
 		"ypos"										"370"
 		"wide"										"102"
 		"tall"										"20"
-		"alpha" "195"
+		 
 
 		"text_xpos"									"8"
 		"text_ypos"									"6"
 		"TextColor"									"255 170 0 220"
 
 		"PaintBackgroundType"						"2"
-	"alpha" "195"}
+	 }
 	"HudDamageIndicator"
 	{
 		"fieldName"									"HudDamageIndicator"
@@ -431,8 +431,8 @@
 		"MinimumHeight"								"11"
 		"MaximumHeight"								"11"
 		"MinimumTime"								"1"
-		"alpha" "195"
-	"alpha" "195"}
+		 
+	 }
 	"HudCommentary"
 	{
 		"fieldName"									"HudCommentary"
@@ -462,7 +462,7 @@
 		"icon_height"								"40"
 
 		"use_script_bgcolor"						"1"
-	"alpha" "195"}
+	 }
 	"HudZoom"
 	{
 		"fieldName"									"HudZoom"
@@ -473,8 +473,8 @@
 		"DashGap"									"16"
 		"DashHeight"								"4"
 		"BorderThickness"							"88"
-		"alpha" "195"
-	"alpha" "195"}
+		 
+	 }
 	"HudCrosshair"
 	{
 		"fieldName"									"HudCrosshair"
@@ -493,7 +493,7 @@
 		"ypos"										"14"
 		"wide"										"628"
 		"tall"										"468"
-		"alpha" "195"
+		 
 
 		"MaxDeathNotices"							"8"
 		"IconScale"									"0.35"
@@ -511,7 +511,7 @@
 
 		"BaseBackgroundColor"						"0 0 0 0"
 		"LocalBackgroundColor"						"128 128 128 175"
-	"alpha" "195"}
+	 }
 	"HudVehicle"
 	{
 		"fieldName"									"HudVehicle"
@@ -519,8 +519,8 @@
 		"enabled"									"1"
 		"wide"										"640"
 		"tall"										"480"
-		"alpha" "195"
-	"alpha" "195"}
+		 
+	 }
 	"CVProfPanel"
 	{
 		"fieldName"									"CVProfPanel"
@@ -528,8 +528,8 @@
 		"enabled"									"1"
 		"wide"										"640"
 		"tall"										"480"
-		"alpha" "195"
-	"alpha" "195"}
+		 
+	 }
 	"ScorePanel"
 	{
 		"fieldName"									"ScorePanel"
@@ -537,8 +537,8 @@
 		"enabled"									"1"
 		"wide"										"640"
 		"tall"										"480"
-		"alpha" "195"
-	"alpha" "195"}
+		 
+	 }
 	"HudTrain"
 	{
 		"fieldName"									"HudTrain"
@@ -546,8 +546,8 @@
 		"enabled"									"1"
 		"wide"										"640"
 		"tall"										"480"
-		"alpha" "195"
-	"alpha" "195"}
+		 
+	 }
 	"HudMOTD"
 	{
 		"fieldName"									"HudMOTD"
@@ -555,8 +555,8 @@
 		"enabled"									"1"
 		"wide"										"640"
 		"tall"										"480"
-		"alpha" "195"
-	"alpha" "195"}
+		 
+	 }
 	"HudMessage"
 	{
 		"fieldName"									"HudMessage"
@@ -564,8 +564,8 @@
 		"enabled"									"1"
 		"wide"										"f0"
 		"tall"										"480"
-		"alpha" "195"
-	"alpha" "195"}
+		 
+	 }
 	"HudMenu"
 	{
 		"fieldName"									"HudMenu"
@@ -574,12 +574,12 @@
 		"wide"										"640"
 		"tall"										"480"
 		"zpos"										"1"
-		"alpha" "195"
+		 
 
 		"TextFont"									"Default"
 		"ItemFont"									"Default"
 		"ItemFontPulsing"							"Default"
-	"alpha" "195"}
+	 }
 	"HudSpellMenu"
 	{
 		"fieldName"									"HudSpellMenu"
@@ -590,12 +590,12 @@
 		"zpos"										"2"
 		"xpos"										"130"
 		"ypos"										"r61"
-		"alpha" "195"
+		 
 
 		"TextFont"									"Default"
 		"ItemFont"									"Default"
 		"ItemFontPulsing"							"Default"
-	"alpha" "195"}
+	 }
 	"HudCloseCaption"
 	{
 		"fieldName"									"HudCloseCaption"
@@ -605,7 +605,7 @@
 		"ypos"										"r95"
 		"wide"										"150"
 		"tall"										"50"
-		"alpha" "195"
+		 
 
 		"BgAlpha"									"0"
 
@@ -614,7 +614,7 @@
 		"ItemFadeInTime"							"0"
 		"ItemFadeOutTime"							"0.2"
 		"topoffset"									"0"
-	"alpha" "195"}
+	 }
 	"HudHistoryResource"
 	{
 		"fieldName"									"HudHistoryResource"
@@ -623,9 +623,9 @@
 		"xpos"										"r640"
 		"wide"										"640"
 		"tall"										"330"
-		"alpha" "195"
+		 
 		"history_gap"								"55"
-	"alpha" "195"}
+	 }
 	"HudGeiger"
 	{
 		"fieldName"									"HudGeiger"
@@ -633,8 +633,8 @@
 		"enabled"									"1"
 		"wide"										"640"
 		"tall"										"480"
-		"alpha" "195"
-	"alpha" "195"}
+		 
+	 }
 	"HUDQuickInfo"
 	{
 		"fieldName"									"HUDQuickInfo"
@@ -642,8 +642,8 @@
 		"enabled"									"1"
 		"wide"										"640"
 		"tall"										"480"
-		"alpha" "195"
-	"alpha" "195"}
+		 
+	 }
 	"HudWeapon"
 	{
 		"fieldName"									"HudWeapon"
@@ -651,8 +651,8 @@
 		"enabled"									"1"
 		"wide"										"640"
 		"tall"										"480"
-		"alpha" "195"
-	"alpha" "195"}
+		 
+	 }
 	"HudAnimationInfo"
 	{
 		"fieldName"									"HudAnimationInfo"
@@ -660,8 +660,8 @@
 		"enabled"									"1"
 		"wide"										"640"
 		"tall"										"480"
-		"alpha" "195"
-	"alpha" "195"}
+		 
+	 }
 	"CBudgetPanel"
 	{
 		"fieldName"									"CBudgetPanel"
@@ -669,8 +669,8 @@
 		"enabled"									"1"
 		"wide"										"640"
 		"tall"										"480"
-		"alpha" "195"
-	"alpha" "195"}
+		 
+	 }
 	"CTextureBudgetPanel"
 	{
 		"fieldName"									"CTextureBudgetPanel"
@@ -678,8 +678,8 @@
 		"enabled"									"1"
 		"wide"										"640"
 		"tall"										"480"
-		"alpha" "195"
-	"alpha" "195"}
+		 
+	 }
 	"HudPredictionDump"
 	{
 		"fieldName"									"HudPredictionDump"
@@ -687,8 +687,8 @@
 		"enabled"									"1"
 		"wide"										"1280"
 		"tall"										"1024"
-		"alpha" "195"
-	"alpha" "195"}
+		 
+	 }
 	"HudLocation"
 	{
 		"fieldName"									"HudLocation"
@@ -699,8 +699,8 @@
 		"wide"										"96"
 		"tall"										"16"
 		"textAlignment"								"north"
-		"alpha" "195"
-	"alpha" "195"}
+		 
+	 }
 	"HudScope"
 	{
 		"fieldName"									"HudScope"
@@ -712,7 +712,7 @@
 				"pin_to_sibling" "HudCrosshair"
 		"pin_corner_to_sibling" "PIN_BOTTOMLEFT"
 		"pin_to_sibling_corner" "PIN_BOTTOMRIGHT"
-	"alpha" "195"}
+	 }
 	"HudScopeCharge"
 	{
 		"fieldName"									"HudScopeCharge"
@@ -722,8 +722,8 @@
 		"ypos"										"c-23"
 		"wide"										"50"
 		"tall"										"100"
-		"alpha" "195"
-	"alpha" "195"}
+		 
+	 }
 	"HudVoiceSelfStatus"
 	{
 		"fieldName"									"HudVoiceSelfStatus"
@@ -733,12 +733,12 @@
 		"ypos"										"355"
 		"wide"										"32"
 		"tall"										"32"
-		"alpha" "195"
+		 
 		"xpos_minmode"										"90"
 		"ypos_minmode"										"r52"
 		"wide_minmode"										"24"
 		"tall_minmode"										"24"
-	"alpha" "195"}
+	 }
 	HudVoiceStatus
 	{
 		"fieldName" "HudVoiceStatus"
@@ -768,7 +768,7 @@
 		
 		"text_xpos"			"22"
 		"alpha" "255"
-	"alpha" "195"}
+	 }
 	"HudHintDisplay"
 	{
 		"fieldName"									"HudHintDisplay"
@@ -783,7 +783,7 @@
 		"text_ypos"									"8"
 		"center_x"									"0"
 		"center_y"									"-1"
-	"alpha" "195"}
+	 }
 	"HudHintKeyDisplay"
 	{
 		"fieldName"									"HudHintKeyDisplay"
@@ -800,7 +800,7 @@
 		"TextColor"									"255 170 0 220"
 
 		"PaintBackgroundType"						"2"
-	"alpha" "195"}
+	 }
 	"overview"
 	{
 		"fieldName"									"overview"
@@ -810,7 +810,7 @@
 		"ypos"										"0"
 		"wide"										"640"
 		"tall"										"480"
-	"alpha" "195"}
+	 }
 	"VguiScreenCursor"
 	{
 		"fieldName"									"VguiScreenCursor"
@@ -818,7 +818,7 @@
 		"enabled"									"1"
 		"wide"										"640"
 		"tall"										"480"
-	"alpha" "195"}
+	 }
 	"HudControlPointIcons"
 	{
 		"fieldName"									"HudControlPointIcons"
@@ -831,7 +831,7 @@
 		"separator_width"							"5"
 		"separator_height"							"5"
 		"height_offset"								"0"
-	"alpha" "195"}
+	 }
 	"HudCapturePanel"
 	{
 		"fieldName"									"HudCapturePanel"
@@ -842,13 +842,13 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"icon_space"								"2"
-	"alpha" "195"}
+	 }
 	"HUDAutoAim"
 	{
-	"alpha" "195"}
+	 }
 	"HudHDRDemo"
 	{
-	"alpha" "195"}
+	 }
 	"WinPanel"
 	{
 		"fieldName"									"WinPanel"
@@ -860,7 +860,7 @@
 		"tall"										"f0"
 		"zpos"										"10"
 		"proportionaltoparent"						"1"
-	"alpha" "195"}
+	 }
 	"ArenaWinPanel"
 	{
 		"fieldName"									"ArenaWinPanel"
@@ -871,7 +871,7 @@
 		"zpos"										"10"
 		"wide"										"f0"
 		"tall"										"f0"
-	"alpha" "195"}
+	 }
 	"PVEWinPanel"
 	{
 		"fieldName"									"PVEWinPanel"
@@ -881,7 +881,7 @@
 		"ypos"										"255"
 		"wide"										"300"
 		"tall"										"215"
-	"alpha" "195"}
+	 }
 	"StatPanel"
 	{
 		"fieldName"									"StatPanel"
@@ -891,7 +891,7 @@
 		"ypos"										"9999"
 		"wide"										"0"
 		"tall"										"0"
-	"alpha" "195"}
+	 }
 	"FreezePanel"
 	{
 		"fieldName"									"FreezePanel"
@@ -901,7 +901,7 @@
 		"ypos"										"0"
 		"wide"										"f0"
 		"tall"										"480"
-	"alpha" "195"}
+	 }
 	"FreezePanelCallout"
 	{
 		"fieldName"									"FreezePanelCallout"
@@ -911,7 +911,7 @@
 		"ypos"										"200"
 		"wide"										"100"
 		"tall"										"50"
-	"alpha" "195"}
+	 }
 	"AnnotationsPanelCallout"
 	{
 		"fieldName"									"AnnotationsPanelCallout"
@@ -921,10 +921,10 @@
 		"ypos"										"200"
 		"wide"										"100"
 		"tall"										"50"
-	"alpha" "195"}
+	 }
 	"AnnotationsPanel"
 	{
-	"alpha" "195"}
+	 }
 	"WaitingForPlayersPanel"
 	{
 		"fieldName"									"WaitingForPlayersPanel"
@@ -934,7 +934,7 @@
 		"ypos"										"10"
 		"wide"										"292"
 		"tall"										"64"
-	"alpha" "195"}
+	 }
 	"HudUpgradePanel"
 	{
 		"fieldName"									"HudUpgradePanel"
@@ -944,7 +944,7 @@
 		"ypos"										"260"
 		"wide"										"400"
 		"tall"										"160"
-	"alpha" "195"}
+	 }
 	"HudChat"
 	{
 		"ControlName"								"EditablePanel"
@@ -956,7 +956,7 @@
 		"wide"										"320"
 		"tall"										"120"
 		"PaintBackgroundType"						"2"
-	"alpha" "195"}
+	 }
 	"HudMenuEngyBuild"
 	{
 		"fieldName"									"HudMenuEngyBuild"
@@ -968,7 +968,7 @@
 		"wide"										"f0"
 		"tall"										"f0"
 		"PaintBackgroundType"						"0"
-	"alpha" "195"}
+	 }
 	"HudMenuEngyDestroy"
 	{
 		"fieldName"									"HudMenuEngyDestroy"
@@ -980,7 +980,7 @@
 		"wide"										"f0"
 		"tall"										"f0"
 		"PaintBackgroundType"						"0"
-	"alpha" "195"}
+	 }
 	"HudEurekaEffectTeleportMenu"
 	{
 		"fieldName"									"HudEurekaEffectTeleportMenu"
@@ -992,7 +992,7 @@
 		"wide"										"f0"
 		"tall"										"f0"
 		"PaintBackgroundType"						"0"
-	"alpha" "195"}
+	 }
 	"HudMenuSpyDisguise"
 	{
 		"fieldName"									"HudMenuSpyDisguise"
@@ -1004,7 +1004,7 @@
 		"wide"										"f0"
 		"tall"										"f0"
 		"PaintBackgroundType"						"0"
-	"alpha" "195"}
+	 }
 	"HudDemomanPipes"
 	{
 		"fieldName"									"HudDemomanPipes"
@@ -1014,7 +1014,7 @@
 		"ypos"										"0"
 		"wide"										"f0"
 		"tall"										"f0"
-	"alpha" "195"}
+	 }
 	"HudTeamGoal"
 	{
 		"fieldName"									"HudTeamGoal"
@@ -1024,7 +1024,7 @@
 		"ypos"										"9999"
 		"wide"										"0"
 		"tall"										"0"
-	"alpha" "195"}
+	 }
 	"HudTeamGoalTournament"
 	{
 		"fieldName"									"HudTeamGoalTournament"
@@ -1034,7 +1034,7 @@
 		"ypos"										"9999"
 		"wide"										"0"
 		"tall"										"0"
-	"alpha" "195"}
+	 }
 	"HudTeamSwitch"
 	{
 		"fieldName"									"HudTeamSwitch"
@@ -1044,7 +1044,7 @@
 		"ypos"										"0"
 		"wide"										"f0"
 		"tall"										"f0"
-	"alpha" "195"}
+	 }
 	"HudArenaNotification"
 	{
 		"fieldName"									"HudArenaNotification"
@@ -1054,7 +1054,7 @@
 		"ypos"										"9999"
 		"wide"										"0"
 		"tall"										"0"
-	"alpha" "195"}
+	 }
 	"HudArenaCapPointCountdown"
 	{
 		"fieldName"									"HudArenaCapPointCountdown"
@@ -1065,7 +1065,7 @@
 		"wide"										"30"
 		"tall"										"30"
 		"zpos"										"99"
-	"alpha" "195"}
+	 }
 	"HudStalemate"
 	{
 		"fieldName"									"HudStalemate"
@@ -1075,7 +1075,7 @@
 		"ypos"										"0"
 		"wide"										"f0"
 		"tall"										"f0"
-	"alpha" "195"}
+	 }
 	"HudTournament"
 	{
 		"fieldName"									"HudTournament"
@@ -1086,7 +1086,7 @@
 		"zpos"										"20"
 		"wide"										"f0"
 		"tall"										"f0"
-	"alpha" "195"}
+	 }
 	"HudTournamentSetup"
 	{
 		"fieldName"									"HudTournamentSetup"
@@ -1096,7 +1096,7 @@
 		"ypos"										"32"
 		"wide"										"76"
 		"tall"										"25"
-	"alpha" "195"}
+	 }
 	"HudStopWatch"
 	{
 		"fieldName"									"HudStopWatch"
@@ -1106,7 +1106,7 @@
 		"ypos"										"0"
 		"wide"										"f0"
 		"tall"										"f0"
-	"alpha" "195"}
+	 }
 	"NotificationPanel"
 	{
 		"fieldName"									"NotificationPanel"
@@ -1116,7 +1116,7 @@
 		"ypos"										"300"
 		"wide"										"640"
 		"tall"										"100"
-	"alpha" "195"}
+	 }
 	"AchievementNotificationPanel"
 	{
 		"fieldName"									"AchievementNotificationPanel"
@@ -1126,7 +1126,7 @@
 		"ypos"										"180"
 		"wide"										"f10"
 		"tall"										"100"
-	"alpha" "195"}
+	 }
 	"CriticalPanel"
 	{
 		"fieldName"									"CriticalPanel"
@@ -1136,7 +1136,7 @@
 		"ypos"										"r75"
 		"wide"										"150"
 		"tall"										"25"
-	"alpha" "195"}
+	 }
 	"HudArenaClassLayout"
 	{
 		"fieldName"									"HudArenaClassLayout"
@@ -1146,7 +1146,7 @@
 		"ypos"										"r226"
 		"wide"										"f0"
 		"tall"										"320"
-	"alpha" "195"}
+	 }
 	"HudArenaVsPanel"
 	{
 		"fieldName"									"HudArenaVsPanel"
@@ -1156,7 +1156,7 @@
 		"ypos"										"240"
 		"wide"										"f0"
 		"tall"										"240"
-	"alpha" "195"}
+	 }
 	"HudArenaPlayerCount"
 	{
 		"fieldName"									"HudArenaPlayerCount"
@@ -1166,7 +1166,7 @@
 		"ypos"										"0"
 		"wide"										"f0"
 		"tall"										"100"
-	"alpha" "195"}
+	 }
 	"HudAchievementTracker"
 	{
 		"ControlName"								"EditablePanel"
@@ -1179,7 +1179,7 @@
 		"tall"										"280"
 		"visible"									"1"
 		"enabled"									"1"
-	"alpha" "195"}
+	 }
 	"HudTrainingInfoMsg"
 	{
 		"fieldName"									"HudTrainingInfoMsg"
@@ -1189,13 +1189,13 @@
 		"ypos"										"50"
 		"wide"										"200"
 		"tall"										"300"
-	"alpha" "195"}
+	 }
 	"HudTrainingMsg"
 	{
-	"alpha" "195"}
+	 }
 	"TrainingComplete"
 	{
-	"alpha" "195"}
+	 }
 	"HudInspectPanel"
 	{
 		"fieldName"									"HudInspectPanel"
@@ -1206,7 +1206,7 @@
 		"zpos"										"10"
 		"wide"										"190"
 		"tall"										"f0"
-	"alpha" "195"}
+	 }
 	"HudTFCrosshair"
 	{
 		"fieldName"									"HudTFCrosshair"
@@ -1214,7 +1214,7 @@
 		"enabled"									"1"
 		"wide"										"640"
 		"tall"										"480"
-	"alpha" "195"}
+	 }
 	"ItemQuickSwitchPanel"
 	{
 		"fieldName"									"ItemQuickSwitchPanel"
@@ -1224,13 +1224,13 @@
 		"ypos"										"320"
 		"wide"										"250"
 		"tall"										"120"
-	"alpha" "195"}
+	 }
 	"ReplayReminder"
 	{
 		"fieldName"									"ReplayReminder"
 		"visible"									"0"
 		"enable"									"1"
-	"alpha" "195"}
+	 }
 	"MainMenuAdditions"
 	{
 		"fieldName"									"MainMenuAdditions"
@@ -1241,7 +1241,7 @@
 		"zpos"										"0"
 		"wide"										"300"
 		"tall"										"100"
-	"alpha" "195"}
+	 }
 	"CoachedByPanel"
 	{
 		"fieldName"									"CoachedByPanel"
@@ -1251,7 +1251,7 @@
 		"ypos"										"10"
 		"wide"										"250"
 		"tall"										"44"
-	"alpha" "195"}
+	 }
 	"ItemTestHUDPanel"
 	{
 		"fieldName"									"ItemTestHUDPanel"
@@ -1261,7 +1261,7 @@
 		"ypos"										"10"
 		"wide"										"150"
 		"tall"										"44"
-	"alpha" "195"}
+	 }
 	"NotificationQueuePanel"
 	{
 		"fieldName"									"NotificationQueuePanel"
@@ -1272,7 +1272,7 @@
 		"zpos"										"100"
 		"wide"										"200"
 		"tall"										"0"
-	"alpha" "195"}
+	 }
 	"CHudVote"
 	{
 		"fieldName"									"CHudVote"
@@ -1284,7 +1284,7 @@
 		"enabled"									"1"
 		"bgcolor_override"							"0 0 0 0"
 		"PaintBackgroundType"						"0"
-	"alpha" "195"}
+	 }
 	"HudAlert"
 	{
 		"fieldName"									"HudAlert"
@@ -1294,7 +1294,7 @@
 		"ypos"										"0"
 		"wide"										"f0"
 		"tall"										"f0"
-	"alpha" "195"}
+	 }
 	"CTFStreakNotice"
 	{
 		"fieldName"									"CTFStreakNotice"
@@ -1306,7 +1306,7 @@
 		"enabled"									"1"
 		"bgcolor_override"							"0 0 0 0"
 		"PaintBackgroundType"						"0"
-	"alpha" "195"}
+	 }
 	"CTFFlagCalloutPanel"
 	{
 		"fieldName"									"CTFFlagCalloutPanel"
@@ -1317,7 +1317,7 @@
 		"wide"										"40"
 		"tall"										"40"
 		"priority"									"40"
-	"alpha" "195"}
+	 }
 	"HudMenuTauntSelection"
 	{
 		"fieldName"									"HudMenuTauntSelection"
@@ -1329,7 +1329,7 @@
 		"wide"										"f0"
 		"tall"										"f0"
 		"PaintBackgroundType"						"0"
-	"alpha" "195"}
+	 }
 	"ItemAttributeTracker"
 	{
 		"fieldName"									"ItemAttributeTracker"
@@ -1340,7 +1340,7 @@
 		"wide"										"f5"
 		"tall"										"f0"
 		"PaintBackgroundType"						"0"
-	"alpha" "195"}
+	 }
 	"HudMiniGame"
 	{
 		"fieldName"									"HudMiniGame"
@@ -1350,7 +1350,7 @@
 		"ypos"										"0"
 		"wide"										"f0"
 		"tall"										"480"
-	"alpha" "195"}
+	 }
 	"QuestNotificationPanel"
 	{
 		"fieldName"									"QuestNotificationPanel"
@@ -1360,7 +1360,7 @@
 		"ypos"										"0"
 		"wide"										"f0"
 		"tall"										"f0"
-	"alpha" "195"}
+	 }
 	"MatchMakingContainer"
 	{
 		"ControlName"								"EditablePanel"
@@ -1371,7 +1371,7 @@
 		"ypos"										"0"
 		"wide"										"f0"
 		"tall"										"f0"
-	"alpha" "195"}
+	 }
 	"HudSpectatorExtras"
 	{
 		"fieldName"									"HudSpectatorExtras"
@@ -1381,7 +1381,7 @@
 		"ypos"										"0"
 		"wide"										"f0"
 		"tall"										"f0"
-	"alpha" "195"}
+	 }
 	"MatchSummary"
 	{
 		"fieldName"									"MatchSummary"
@@ -1391,7 +1391,7 @@
 		"ypos"										"0"
 		"wide"										"f0"
 		"tall"										"f0"
-	"alpha" "195"}
+	 }
 	"HudMatchStatus"
 	{
 		"fieldName"									"HudMatchStatus"
@@ -1402,7 +1402,7 @@
 		"zpos"										"3"
 		"wide"										"f0"
 		"tall"										"f0"
-	"alpha" "195"}
+	 }
 	"QueueHUDStatus"
 	{
 		"fieldName"									"QueueHUDStatus"
@@ -1417,5 +1417,5 @@
 		"keyboardinputenabled"						"1"
 		"mouseinputenabled"							"0"
 		"alpha"										"100"
-	"alpha" "195"}
-"alpha" "195"}
+	 }
+ }

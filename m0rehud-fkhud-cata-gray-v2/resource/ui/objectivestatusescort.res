@@ -5,7 +5,7 @@
 		"ControlName"								"EditablePanel"
 		"fieldName"									"ObjectiveStatusEscort"
 		"xpos"										"cs-0.5"
-		"ypos"										"rs1+22"
+		"ypos"										"rs1+20"
 		"zpos"										"1"
 		"wide"										"103"
 		"tall"										"60"
@@ -34,10 +34,6 @@
 		"image"										"../hud/cart_track"
 		"proportionaltoparent"						"1"
 
-		"if_multiple_trains"
-		{
-			"tall"									"0"
-		}
 	}
 	"ProgressBar"
 	{
@@ -54,10 +50,6 @@
 		"image"										""
 		"proportionaltoparent"						"1"
 
-		"if_multiple_trains"
-		{
-			"tall"									"0"
-		}
 	}
 	"LevelBar"
 	{
@@ -86,8 +78,8 @@
 		"xpos"										"0"
 		"ypos"										"cs-0.5"
 		"zpos"										"6"
-		"wide"										"11"
-		"tall"										"11"
+		"wide"										"10"
+		"tall"										"10"
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
@@ -111,8 +103,8 @@
 		"xpos"										"cs-0.5"
 		"ypos"										"cs-0.5"
 		"zpos"										"6"
-		"wide"										"11"
-		"tall"										"11"
+		"wide"										"10"
+		"tall"										"10"
 		"visible"									"0"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
@@ -139,7 +131,7 @@
 			"fieldName"								"FillBar"
 			"xpos"									"0"
 			"ypos"									"cs-0.5"
-			"zpos"									"20"
+			"zpos"									"2"
 			"wide"									"80"
 			"tall"									"3"
 			"visible"								"1"
@@ -176,7 +168,7 @@
 			"fieldName"								"EscortItemImage"
 			"xpos"									"67+5"
 			"ypos"									"14"
-			"zpos"									"1"
+			"zpos"									"0"
 			"wide"									"16"
 			"tall"									"16"
 			"visible"								"1"
@@ -208,7 +200,7 @@
 			"fieldName"								"EscortItemImageBottom"
 			"xpos"									"67+4"
 			"ypos"									"rs1-5"
-			"zpos"									"1"
+			"zpos"									"0"
 			"wide"									"16"
 			"tall"									"16"
 			"visible"								"0"

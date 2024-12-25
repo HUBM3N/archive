@@ -77,7 +77,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"FreezeLabelKiller"
-			"xpos"									"0"
+			"xpos"									"20"
 			"ypos"									"0"
 			"zpos"									"1"
 			"wide"									"160"

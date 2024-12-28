@@ -720,10 +720,10 @@
 		"fieldName" "HudScopeCharge"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	 "cs-0.51+13"
-		"ypos"	 "c30"
-		"wide"	 "65"
-		"tall"	 "14"
+		"xpos"	 "cs-0.5"
+		"ypos"	 "-11"
+		"wide"	 "36"
+		"tall"	 "512"//14
 	}
 	
 	HudVoiceSelfStatus

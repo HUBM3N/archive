@@ -119,7 +119,7 @@
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"2"
-		"wide"										"168"	// Twice the lenght of the "ProgressBar"
+		"wide"										"172"	// Twice the lenght of the "ProgressBar"
 		"tall"										"f0"
 		"visible"									"1"
 		"enabled"									"1"
@@ -132,7 +132,7 @@
 			"xpos"									"0"
 			"ypos"									"cs-0.5"
 			"zpos"									"2"
-			"wide"									"80"
+			"wide"									"86"
 			"tall"									"3"
 			"visible"								"1"
 			"enabled"								"1"
@@ -161,12 +161,18 @@
 			// 	"ypos"								"cs-0.5+1"
 			// 	"tall"								"2"
 			// }
+			"if_multiple_trains"
+			{
+			"xpos"									"3"
+			"ypos"									"cs-0.5"
+			"wide"									"81"
+			}
 		}
 		"EscortItemImage"
 		{
 			"ControlName"							"ImagePanel"
 			"fieldName"								"EscortItemImage"
-			"xpos"									"67+5"
+			"xpos"									"67+11"
 			"ypos"									"14"
 			"zpos"									"0"
 			"wide"									"16"
@@ -188,7 +194,7 @@
 			}
 			"if_multiple_trains"
 			{
-				"xpos"									"67+4"
+				"xpos"									"67+9"
 				"ypos"								"14"
 				"wide"								"16"
 				"tall"								"16"
@@ -198,7 +204,7 @@
 		{
 			"ControlName"							"ImagePanel"
 			"fieldName"								"EscortItemImageBottom"
-			"xpos"									"67+4"
+			"xpos"									"67+9"
 			"ypos"									"rs1-5"
 			"zpos"									"0"
 			"wide"									"16"
@@ -220,7 +226,7 @@
 			}
 			"if_multiple_trains"
 			{
-				"xpos"								"67+4"
+				"xpos"								"67+9"
 				"ypos"								"rs1-12"
 				"wide"								"16"
 				"tall"								"16"
@@ -230,7 +236,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"CapNumPlayers"
-			"xpos"									"67"
+			"xpos"									"67+6"
 			"ypos"									"4"
 			"zpos"									"4"
 			"wide"									"26"
@@ -244,6 +250,7 @@
 
 			"if_multiple_trains"
 			{
+				"xpos"									"67+4"
 				"font"								"default"
 			}
 			"if_multiple_trains_top"
@@ -259,7 +266,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"RecedeTime"
-			"xpos"									"67"
+			"xpos"									"67+6"
 			"ypos"									"4"
 			"zpos"									"2"
 			"wide"									"26"
@@ -273,6 +280,7 @@
 
 			"if_multiple_trains"
 			{
+				"xpos"									"67+4"
 				"font"								"default"
 			}
 			"if_multiple_trains_top"
@@ -288,7 +296,7 @@
 		{
 			"ControlName"							"ImagePanel"
 			"fieldName"								"Speed_Backwards"
-			"xpos"									"76"
+			"xpos"									"76+6"
 			"ypos"									"5"
 			"zpos"									"2"
 			"wide"									"7"
@@ -302,7 +310,7 @@
 
 			"if_multiple_trains"
 			{
-				"xpos"								"76"
+				"xpos"								"76+4"
 				"wide"								"6"
 				"tall"								"6"
 			}
@@ -319,7 +327,7 @@
 		{
 			"ControlName"							"ImagePanel"
 			"fieldName"								"Blocked"
-			"xpos"									"76"
+			"xpos"									"76+6"
 			"ypos"									"5"
 			"zpos"									"2"
 			"wide"									"7"
@@ -333,7 +341,7 @@
 
 			"if_multiple_trains"
 			{
-				"xpos"								"76"
+				"xpos"								"76+4"
 				"wide"								"6"
 				"tall"								"6"
 			}

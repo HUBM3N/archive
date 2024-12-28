@@ -54,9 +54,23 @@
 		"zpos"			"3"
 		"wide"			"22"
 		"tall"			"22"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/xhair2"
+		"scaleImage"	"1"	
+	}	
+			"xhair4"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"xhair4"
+		"xpos"			"cs-0.5175"
+		"ypos"		   "cs-0.515"
+		"zpos"			"3"
+		"wide"			"22"
+		"tall"			"22"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/cross111"
 		"scaleImage"	"1"	
 	}	
 

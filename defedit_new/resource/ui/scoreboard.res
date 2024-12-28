@@ -1,5 +1,84 @@
 "Resource/UI/Scoreboard.res"
 {
+	"snow"
+	{
+		"ControlName"	"CTFParticlePanel"
+		"fieldName"		"snow"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-10000"
+		"wide"			"f0"
+		"tall"			"480"
+		"visible"		"1"
+		"proportionaltoparent"	"1"
+
+		"ParticleEffects"
+		{
+			"0"
+			{
+				"particle_xpos" "c-260.27"
+				"particle_ypos" "0"
+				"particle_scale"	"3"
+				"particleName"	"env_snow_stormfront_001"
+				"start_activated" "1"
+				"loop"	"1"
+				"angles"	"0 0 2"
+			}
+			"1"
+			{
+				"particle_xpos" "c72.53"
+				"particle_ypos" "0"
+				"particle_scale"	"2"
+				"particleName"	"env_snow_stormfront_001"
+				"start_activated" "1"
+				"loop"	"1"
+				"angles"	"0 0 2"
+			}
+			"2"
+			{
+				"particle_xpos" "c405.33"
+				"particle_ypos" "0"
+				"particle_scale"	"1"
+				"particleName"	"env_snow_stormfront_001"
+				"start_activated" "1"
+				"loop"	"1"
+				"angles"	"0 0 15"
+			}
+			"3"
+			{
+				"particle_xpos" "c72.33"
+				"particle_ypos" "0"
+				"particle_scale"	"1"
+				"particleName"	"env_snow_stormfront_001"
+				"start_activated" "1"
+				"loop"	"1"
+				"angles"	"0 0 13"
+			}
+			"4"
+			{
+				"particle_xpos" "c-260"
+				"particle_ypos" "0"
+				"particle_scale"	"1"
+				"particleName"	"env_snow_stormfront_mist"
+				"start_activated" "1"
+				"loop"	"1"
+				"angles"	"0 0 2"
+			}
+						"5"
+			{
+				"particle_xpos" "c0"
+				"particle_ypos" "0"
+				"particle_scale"	"1"
+				"particleName"	"env_snow_stormfront_mist"
+				"start_activated" "1"
+				"loop"	"1"
+				"angles"	"0 0 2"
+			}
+
+		}
+
+		"paintbackground"	"0"
+	}
 	"scores"
 	{
 		"ControlName"		"CTFClientScoreBoardDialog"

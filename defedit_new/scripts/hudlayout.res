@@ -721,7 +721,7 @@
 		"visible" "1"
 		"enabled" "1"
 		"xpos"	 "cs-0.5"
-		"ypos"	 "-11"
+		"ypos"	 "21"
 		"wide"	 "36"
 		"tall"	 "512"//14
 	}

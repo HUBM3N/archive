@@ -119,7 +119,7 @@
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"2"
-		"wide"										"159"	// Twice the lenght of the "ProgressBar"
+		"wide"										"168"	// Twice the lenght of the "ProgressBar"
 		"tall"										"f0"
 		"visible"									"1"
 		"enabled"									"1"

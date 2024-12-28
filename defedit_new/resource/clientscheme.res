@@ -72,7 +72,7 @@ Scheme
 		"HUDRedTeamSolid"	"180 92 77 255"
 		"HUDDeathWarning"	"255 0 0 255"
 		"HudWhite"			"255 255 255 255"
-		"HudOffWhite"		"200 187 161 255"
+		"HudOffWhite"		"255 255 255 255"
 		"HudBlack"			"65 65 65 255"
 		"ProgressBarBlue"	"91 122 142 255"
 		
@@ -110,11 +110,11 @@ Scheme
 		
 		// Building HUD Specific
 		"LowHealthRed"		"255 0 0 255"
-		"ProgressOffWhite"	"251 235 202 255"
+		"ProgressOffWhite"	"255 255 255 255"
 		"ProgressBackground"	"250 234 201 51"
 		"HealthBgGrey"		"72 71 69 255"
 		
-		"ProgressOffWhiteTransparent"	"251 235 202 128"
+		"ProgressOffWhiteTransparent"	"255 255 255 128"
 		
 		"LabelDark"			"48 43 42 255"
 		"LabelTransparent"	"109 96 80 180"
@@ -1251,6 +1251,19 @@ Scheme
 			{
 				"name"		"TF2 Build"
 				"tall"		"16"
+				"tall_hidef"	"22"
+				"tall_lodef"	"22"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+				"HudClassHealth2"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"19"
 				"tall_hidef"	"22"
 				"tall_lodef"	"22"
 				"weight"	"500"
@@ -5903,7 +5916,7 @@ Scheme
 		"4" 
 		{
 			"font" "resource/TF2Secondary.ttf"
-			"name" "TF2 Build"
+			"name" "TF2 Secondary"
 			"russian"
 			{
 				"range" "0x0000 0xFFFF"

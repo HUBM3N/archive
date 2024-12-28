@@ -10,6 +10,33 @@
 		"enabled"			"1"
 		"image"				"../sprites/obj_icons/icon_obj_cap_mask"
 	}
+		"scope"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"scope"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../hud/sniperscope_numbers3"
+	}
+			"scope1"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"scope1"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../hud/sniperscope_numbers"
+	}
+			"scope2"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"scope2"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../hud/sniperscope_numbers_jar"
+	}
 	"CPIconWhite"
 	{
 		"ControlName"		"ImagePanel"

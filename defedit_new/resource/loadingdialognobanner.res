@@ -1,0 +1,1 @@
+#base "basedialog.res"

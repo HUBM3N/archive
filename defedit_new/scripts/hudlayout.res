@@ -723,7 +723,20 @@
 		"xpos"	 "cs-0.5"
 		"ypos"	 "21"
 		"wide"	 "36"
+		"tall"	 "0"//14
+	}
+		HudScopeChargeCustom
+	{
+		"fieldName" "HudScopeChargeCustom"
+		"ControlName" "ImagePanel"
+		"visible" "1"
+		"enabled" "1"
+		"xpos"	 "cs-0.5"
+		"ypos"	 "21"
+		"wide"	 "36"
 		"tall"	 "512"//14
+		"image" "replay/thumbnails/sniperscope_numbers"
+		"scaleImage" "1"
 	}
 	
 	HudVoiceSelfStatus

@@ -97,23 +97,23 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"classmodelpanelBG"
-		"xpos"			"-1"		[$WIN32]
-		"xpos_minmode"	"-15"		[$WIN32]
+		"xpos"			"9"		[$WIN32]
+		"xpos_minmode"	"-10"		[$WIN32]
 		"ypos"			"r60"	[$WIN32]
 		"ypos_minmode"		"r40"	[$WIN32]
 		"xpos"			"41"	[$X360]
 		"ypos"			"r82"	[$X360]
 		"zpos"			"1"		
-		"wide"			"109"
+		"wide"			"100"
 		"tall"			"50"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		"image"				"../hud/character_red_bg_clipped"	
-		"teambg_2"			"../hud/character_red_bg_clipped"
-		"teambg_2_lodef"	"../hud/character_red_bg_lodef_clipped"
-		"teambg_3"			"../hud/character_blue_bg_clipped"
-		"teambg_3_lodef"	"../hud/character_blue_bg_lodef_clipped"
+		"image"			"../hud/character_red_bg"	
+		"teambg_2"		"../hud/character_red_bg"
+		"teambg_2_lodef"	"../hud/character_red_bg_lodef"
+		"teambg_3"		"../hud/character_blue_bg"
+		"teambg_3_lodef"	"../hud/character_blue_bg_lodef"
 	}
 
 	"classmodelpanel"
@@ -230,11 +230,11 @@
 				"fov"			"20"
 				"angles_x"		"-5"
 				"angles_x_minmode"	"0"
-				"angles_y"		"200"
+				"angles_y"		"230"
 				"angles_y_minmode"	"210"
 				"angles_z"		"0"
 				"origin_x"		"200"
-				"origin_y"		"0"
+				"origin_y"		"-5"
 				"origin_z"		"-102"
 				"origin_z_minmode"	"-60"
 			}

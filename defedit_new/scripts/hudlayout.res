@@ -16,15 +16,12 @@
 		"fieldName" "HudWeaponAmmo"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"r95"	[$WIN32]
-		"xpos_minmode"	"r85"	[$WIN32]
-		"ypos"	"r55"	[$WIN32]
-		"ypos_minmode"	"r36"	[$WIN32]
-		"xpos"	"r131"	[$X360]
-		"ypos"	"r77"	[$X360]
-		"wide"	"94"
-		"tall"	"45"
+		"xpos"	"0"
+		"ypos"	"0"	
+		"wide"	"f0"
+		"tall"	"f0"
 	}
+
 	
 	HudObjectiveStatus
 	{
@@ -724,19 +721,6 @@
 		"ypos"	 "21"
 		"wide"	 "36"
 		"tall"	 "0"//14
-	}
-		HudScopeChargeCustom
-	{
-		"fieldName" "HudScopeChargeCustom"
-		"ControlName" "ImagePanel"
-		"visible" "1"
-		"enabled" "1"
-		"xpos"	 "cs-0.5"
-		"ypos"	 "21"
-		"wide"	 "36"
-		"tall"	 "512"//14
-		"image" "replay/thumbnails/sniperscope_numbers"
-		"scaleImage" "1"
 	}
 	
 	HudVoiceSelfStatus

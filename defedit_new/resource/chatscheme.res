@@ -366,72 +366,75 @@ Scheme
 		{
 				"1"
 			{
-				"name"		"Trebuchet MS"
-				"tall"		"16"
+				"name"		"chatfont"
+				"tall"		"15"
 				"weight"	"1200"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"480 599"
 				"antialias" "1"
 				"dropshadow" "1"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+
 			}
 			"2"
 			{
-				"name"		"Trebuchet MS"
-				"tall"		"19"	[$WIN32]
+				"name"		"chatfont"
+				"tall"		"16"	[$WIN32]
 				"tall"		"20"	[$X360]
 				"weight"	"1200"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"600 767"
 				"antialias" "1"
 				"dropshadow" "1"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
 			"3"
 			{
-				"name"		"Trebuchet MS"
-				"tall"		"22"
+				"name"		"chatfont"
+				"tall"		"19"
 				"weight"	"1200"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"768 1023"
 				"antialias"	"1"
 				"dropshadow" "1"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+
 			}
 			"4"
 			{
-				"name"		"Trebuchet MS"
-				"tall"		"25"
+				"name"		"chatfont"
+				"tall"		"22"
 				"weight"	"1200"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"1024 1199"
 				"antialias"	"1"
 				"dropshadow" "1"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
 			"5"
 			{
-				"name"		"Trebuchet MS"
-				"tall"		"28"
+				"name"		"chatfont"
+				"tall"		"25"
 				"weight"	"1200"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"1200 6000"
 				"antialias"	"1"
 				"dropshadow" "1"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
 			"6"
 			{
-				"name"		"Trebuchet MS"
-				"tall"		"31"
-				"range" 		"0x0000 0x00FF"
+				"name"		"chatfont"
+				"tall"		"29"
 				"weight"		"1200"
 				"antialias" "1"
 				"dropshadow" "1"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+
 			}
 			"7"
 			{
-				"name"		"Trebuchet MS"
-				"tall"		"34"
-				"range" 		"0x0000 0x00FF"
+				"name"		"chatfont"
+				"tall"		"30"
 				"weight"		"1200"
 				"antialias" "1"
 				"dropshadow" "1"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
 			}
 		}
@@ -842,13 +845,11 @@ Scheme
 	CustomFontFiles
 	{
 		"1"		"resource/HALFLIFE2.ttf"
-		"2"		"resource/HL2EP2.ttf"		
-		"10"		"resource/linux_fonts/DejaVuSans.ttf"
-		"11"		"resource/linux_fonts/DejaVuSans-Bold.ttf"
-		"12"		"resource/linux_fonts/DejaVuSans-BoldOblique.ttf"
-		"13"		"resource/linux_fonts/DejaVuSans-Oblique.ttf"
-		"14"		"resource/linux_fonts/LiberationSans-Regular.ttf"
-		"15"		"resource/linux_fonts/LiberationSans-Bold.ttf"
-		"16"		"resource/linux_fonts/LiberationMono-Regular.ttf"
+		"2"		"resource/HL2EP2.ttf"	
+		"3"
+		{
+			"font" "resource/chatfont.ttf"
+			"name" "chatfont"
+		}
 	}
 }

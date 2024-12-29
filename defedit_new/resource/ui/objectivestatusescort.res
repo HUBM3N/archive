@@ -4,10 +4,10 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"ObjectiveStatusEscort"
-		"xpos"										"cs-0.5"
+		"xpos"										"cs-0.5+2"
 		"ypos"										"rs1+20"
 		"zpos"										"1"
-		"wide"										"103"
+		"wide"										"100"
 		"tall"										"60"
 		"visible"									"1"
 		"enabled"									"1"
@@ -26,7 +26,7 @@
 		"xpos"										"rs1-12"
 		"ypos"										"cs-0.5"
 		"zpos"										"0"
-		"wide"										"84"
+		"wide"										"82"
 		"tall"										"4"
 		"visible"									"1"
 		"enabled"									"1"
@@ -42,7 +42,7 @@
 		"xpos"										"rs1-12"
 		"ypos"										"cs-0.5"
 		"zpos"										"0"
-		"wide"										"84"
+		"wide"										"82"
 		"tall"										"5"
 		"visible"									"0"
 		"enabled"									"1"
@@ -58,7 +58,7 @@
 		"xpos"										"rs1-10"
 		"ypos"										"cs-0.5"
 		"zpos"										"1"
-		"wide"										"84"
+		"wide"										"82"
 		"tall"										"5"
 		"visible"									"1"
 		"enabled"									"1"
@@ -165,7 +165,7 @@
 			{
 			"xpos"									"3"
 			"ypos"									"cs-0.5"
-			"wide"									"81"
+			"wide"									"82"
 			}
 		}
 		"EscortItemImage"
@@ -194,7 +194,7 @@
 			}
 			"if_multiple_trains"
 			{
-				"xpos"									"67+9"
+				"xpos"									"67+10"
 				"ypos"								"14"
 				"wide"								"16"
 				"tall"								"16"
@@ -204,7 +204,7 @@
 		{
 			"ControlName"							"ImagePanel"
 			"fieldName"								"EscortItemImageBottom"
-			"xpos"									"67+9"
+			"xpos"									"67+10"
 			"ypos"									"rs1-5"
 			"zpos"									"0"
 			"wide"									"16"
@@ -226,7 +226,7 @@
 			}
 			"if_multiple_trains"
 			{
-				"xpos"								"67+9"
+				"xpos"								"67+10"
 				"ypos"								"rs1-12"
 				"wide"								"16"
 				"tall"								"16"
@@ -250,7 +250,7 @@
 
 			"if_multiple_trains"
 			{
-				"xpos"									"67+4"
+				"xpos"									"67+5"
 				"font"								"default"
 			}
 			"if_multiple_trains_top"
@@ -280,7 +280,7 @@
 
 			"if_multiple_trains"
 			{
-				"xpos"									"67+4"
+				"xpos"									"67+5"
 				"font"								"default"
 			}
 			"if_multiple_trains_top"
@@ -310,7 +310,7 @@
 
 			"if_multiple_trains"
 			{
-				"xpos"								"76+4"
+				"xpos"								"76+5"
 				"wide"								"6"
 				"tall"								"6"
 			}
@@ -341,7 +341,7 @@
 
 			"if_multiple_trains"
 			{
-				"xpos"								"76+4"
+				"xpos"								"76+5"
 				"wide"								"6"
 				"tall"								"6"
 			}

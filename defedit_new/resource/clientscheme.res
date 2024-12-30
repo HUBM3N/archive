@@ -538,6 +538,78 @@ Scheme
 				"antialias" "1"
 			}
 		}
+				"DefaultShadow"
+		{
+				"1"
+			{
+				"name"		"Trebuchet MS"
+				"tall"		"16"
+				"weight"	"1200"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"480 599"
+				"antialias" "0"
+				"dropshadow" "1"
+			}
+			"2"
+			{
+				"name"		"Trebuchet MS"
+				"tall"		"19"	[$WIN32]
+				"tall"		"20"	[$X360]
+				"weight"	"1200"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"600 767"
+				"antialias" "0"
+				"dropshadow" "1"
+			}
+			"3"
+			{
+				"name"		"Trebuchet MS"
+				"tall"		"22"
+				"weight"	"1200"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"768 1023"
+				"antialias"	"0"
+				"dropshadow" "1"
+			}
+			"4"
+			{
+				"name"		"Trebuchet MS"
+				"tall"		"25"
+				"weight"	"1200"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"1024 1199"
+				"antialias"	"0"
+				"dropshadow" "1"
+			}
+			"5"
+			{
+				"name"		"Trebuchet MS"
+				"tall"		"28"
+				"weight"	"1200"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"1200 6000"
+				"antialias"	"0"
+				"dropshadow" "1"
+			}
+			"6"
+			{
+				"name"		"Trebuchet MS"
+				"tall"		"31"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"1200"
+				"antialias" "0"
+				"dropshadow" "1"
+			}
+			"7"
+			{
+				"name"		"Trebuchet MS"
+				"tall"		"34"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"1200"
+				"antialias" "0"
+				"dropshadow" "1"
+			}
+		}
 		"DefaultUnderline"
 		{
 			"1"

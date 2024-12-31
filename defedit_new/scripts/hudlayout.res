@@ -184,13 +184,10 @@
 	CHudAccountPanel
 	{
 		"fieldName"				"CHudAccountPanel"
-		"xpos"					"r162"	[$WIN32]
-		"ypos"					"r152"	[$WIN32]
-		"ypos_minmode"			"r134"	[$WIN32]
-		"xpos"					"r194"	[$X360]
-		"ypos"					"r174"	[$X360]
-		"wide"					"116"
-		"tall"  				"180"
+		"xpos"					"cs-0.5"	
+		"ypos"					"c42"	
+		"wide"					"100"
+		"tall"  				"26"
 		"visible" 				"1"
 		"enabled" 				"1"
 		"PaintBackgroundType"	"2"
@@ -292,7 +289,7 @@
 		"fieldName" "BuildingStatus_Spy"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"0"	[$WIN32]
+		"xpos"		"-5"	[$WIN32]
 		"ypos"		"c-80"	[$WIN32]	
 		"ypos_minmode"		"c-80"	[$WIN32]	
 		"wide"		"640"
@@ -306,7 +303,7 @@
 		"fieldName" "BuildingStatus_Engineer"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"0"
+		"xpos"		"-5"
 		"ypos"		"c-80"
 		"ypos_minmode"		"c-80"	[$WIN32]	
 		"wide"		"640"
@@ -478,9 +475,9 @@
 		"tall"	 "480"
 	}
 
-	HudDeathNotice
+	HudDeathNotice //dont touch this or youll break the whole hud
 	{
-		"fieldName" "HudDeathNotice"
+		"fieldName" "HudDeathNotice" 
 		"visible" "1"
 		"enabled" "1"
 		"xpos"	 "r634"	[$WIN32]
@@ -502,7 +499,7 @@
 		"TeamBlue"		"HUDBlueTeamSolid"
 		"TeamRed"		"HUDRedTeamSolid"
 		"IconColor"		"HudWhite"
-		"LocalPlayerColor"	"tanlight"
+		"LocalPlayerColor"	"75 75 75 255"
 
 		"BaseBackgroundColor"	"46 43 42 220"		[$WIN32]
 		"LocalBackgroundColor"	"245 229 196 200"	[$WIN32]
@@ -991,6 +988,7 @@
 		"ypos"			"c-55"
 		"wide"			"450"
 		"tall"			"195"
+		"zpos" "10"
 		"PaintBackgroundType"	"0"
 	}
 	
@@ -1003,6 +1001,7 @@
 		"ypos"			"c-59"
 		"wide"			"450"
 		"tall"			"200"
+		"zpos" "10"
 		"PaintBackgroundType"	"0"
 	}
 
@@ -1015,6 +1014,7 @@
 		"ypos"			"c-55"
 		"wide"			"250"
 		"tall"			"195"
+		"zpos" "10"
 		"PaintBackgroundType"	"0"
 	}
 	
@@ -1401,6 +1401,7 @@
 		"ypos_lodef"	"c-42"
 		"wide"			"470"
 		"tall"			"200"
+		"zpos" "10"
 		"PaintBackgroundType"	"0"
 	}
 

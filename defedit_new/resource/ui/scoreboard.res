@@ -278,7 +278,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor" "128 175 255 255"
+		"fgcolor" "153 204 255 255"
 		
 		if_mvm
 		{
@@ -368,7 +368,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor" "255 128 128 255"
+		"fgcolor" "255 64 64 255"
 		
 		if_mvm
 		{
@@ -1369,7 +1369,7 @@
 			"font"			"hudfontbig"
 			"labelText"		"%deaths%"
 			"textAlignment"		"center"
-			"xpos"			"c-272+110"
+			"xpos"			"c-272+111"
 			"ypos"			"c104"
 			"zpos"			"3"
 			"wide"			"45"
@@ -1479,7 +1479,7 @@
 			"font"			"hudfontsmallest"
 			"labelText"		"%headshots%"
 			"textAlignment"		"west"
-			"xpos"			"0"
+			"xpos"			"2"
 			"ypos"			"0"
 			"zpos"			"3"
 			"wide"			"35"

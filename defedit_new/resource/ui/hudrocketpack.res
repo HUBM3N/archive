@@ -19,21 +19,21 @@
 	"modulate"
 	{
 		"xpos" "c-18"
-		"wide"			"17"
+		"wide"			"18"
 	}	
 	"ItemEffectMeter"
 	{	
 		
-		"wide"			"17"
+		"wide"			"18"
 	}
 	"modulate2"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"modulate2"
-		"xpos"					"1"
+		"xpos"					"0"
 		"ypos"					"0"
 		"zpos"					"3"
-		"wide"					"17"
+		"wide"					"18"
 		"tall"					"2"				
 		"autoResize"			"0"
 		"pinCorner"				"0"
@@ -54,7 +54,7 @@
 		"xpos"					"0"
 		"ypos"					"0"
 		"zpos"					"2"
-		"wide"					"17"
+		"wide"					"18"
 		"tall"					"2"				
 		"autoResize"			"0"
 		"pinCorner"				"0"

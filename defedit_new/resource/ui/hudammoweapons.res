@@ -1,15 +1,15 @@
 "Resource/UI/HudAmmoWeapons.res"
 {
-			HudScopeChargeCustom
+	HudScopeChargeCustom
 	{
 		"fieldName" "HudScopeChargeCustom"
 		"ControlName" "ImagePanel"
 		"visible" "1"
 		"enabled" "1"
 		"xpos"	 "cs-0.5"
-		"ypos"	 "21"
+		"ypos"	 "29"
 		"wide"	 "36"
-		"tall"	 "512"//14
+		"tall"	 "496"//14
 		"image" "replay/thumbnails/sniperscope_numbers"
 		"scaleImage" "1"
 	}
@@ -192,7 +192,6 @@
 		"pin_to_sibling" "AmmoNoClip"
 		
 	}				
-	/////////////////////////////////////////////////////////////////////////////////////////////////////
-		"HudWeaponLowAmmoImage"  //unused and gay
-    { "ControlName"	"ImagePanel" "fieldName"		"HudWeaponLowAmmoImage" "xpos"			"9999" "ypos"			"9999" "zpos"			"0" "wide"			"0" "tall"			"0" "visible"		"0" "enabled"		"0" "image"			"../hud/ammo_red_bg" "scaleImage"	"1"	 }					
+	///////////////////////////////////////////////////////////////////////////////////////////////////// unused and gay
+	"HudWeaponLowAmmoImage"  { "ControlName"	"ImagePanel" "fieldName"		"HudWeaponLowAmmoImage" "xpos"			"9999" "ypos"			"9999" "zpos"			"0" "wide"			"0" "tall"			"0" "visible"		"0" "enabled"		"0" "image"			"../hud/ammo_red_bg" "scaleImage"	"1"	 }					
 }

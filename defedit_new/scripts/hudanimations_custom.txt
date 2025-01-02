@@ -5,8 +5,11 @@ event DamagedPlayer
 	Animate damage			Alpha		"255"			Linear 1.2 0.0	
 	Animate damage			Alpha		"0"			Linear 1.2 0.7	
         Animate damages			Alpha		"255"			Linear 0.0 0.0	
-	Animate damages			Alpha		"255"			Linear 1.2 0.0	
+	Animate damages			Alpha		"255"			Linear 1.1 0.0	
 	Animate damages			Alpha		"0"			Linear 1.1 0.7
+        Animate damage			fgcolor		"255 128 128 255"			Linear 0.0 0.0	
+        Animate damage			fgcolor		"white"			Linear 0.01 0.15	
+
 }
 
 event HudSpyDisguiseChanged

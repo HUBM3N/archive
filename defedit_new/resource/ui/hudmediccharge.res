@@ -44,7 +44,7 @@
 		"brighttext"	"0"
 		"font"			"HudFontGiantBold"
 	}
-		"ChargeLabelShadow"
+	"ChargeLabelShadow"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ChargeLabelShadow"
@@ -116,6 +116,7 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
+		"fgcolor" "PartyMember2"
 		"bgcolor_override" "Shadows"
 	}		
 
@@ -140,6 +141,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"bgcolor_override" "255 255 255 75"
+		"alpha" "225"
 	}
 
 	"ChargeMeter2"
@@ -161,6 +163,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"bgcolor_override" "255 255 255 75"
+		"alpha" "225"
 		"pin_to_sibling" "ChargeMeter1"
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
 		"pin_to_sibling_corner" "PIN_TOPRIGHT"
@@ -185,6 +188,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"bgcolor_override" "255 255 255 75"
+		"alpha" "225"
 		"pin_to_sibling" "ChargeMeter2"
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
 		"pin_to_sibling_corner" "PIN_TOPRIGHT"
@@ -209,6 +213,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"bgcolor_override" "255 255 255 75"
+		"alpha" "225"
 		"pin_to_sibling" "ChargeMeter3"
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
 		"pin_to_sibling_corner" "PIN_TOPRIGHT"

@@ -106,6 +106,38 @@ event IntroMovieContinueBlinkStop
 	StopEvent IntroMovieContinueBlinkLoop 		0.0
         FireCommand 0.0    "skip"
 }
+//====================================
+
+// Flash the medic charge hud when we have full charge
+
+event HudMedicCharged
+{
+	Animate	ChargeLabelShadow 	FgColor		"Shadows"		Linear 0.0 0.2
+	Animate	ChargeLabelShadow 	FgColor		"PartyMember2"		Linear 0.2 0.2
+	
+	Animate	ChargeMeter 	FgColor		"TanLight"		Linear 0.0 0.2
+	Animate	ChargeMeter 	FgColor		"PartyMember2"		Linear 0.2 0.2
+
+	RunEvent HudMedicChargedLoop	0.4
+}
+
+// call to loop HudHealthBonusPulse
+event HudMedicChargedLoop
+{
+	RunEvent HudMedicCharged 0.0
+}
+
+event HudMedicChargedStop
+{
+	StopEvent HudMedicCharged 0.0
+	StopEvent HudMedicChargedLoop 0.0
+	
+	Animate	ChargeLabelShadow 	FgColor		"Shadows"		Linear 0.0 0.0
+	Animate	ChargeMeter 	FgColor		"TanLight"		Linear 0.0 0.0
+}
+
+//====================================
+
 
 event ControlPointIconShrink{}
 event ControlPointIconGrow{}

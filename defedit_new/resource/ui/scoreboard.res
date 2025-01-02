@@ -672,7 +672,7 @@
 		"ypos"			"r162"
 		"zpos"			"-2"
 		"wide"			"566"
-		"tall"			"72"
+		"tall"			"74"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"

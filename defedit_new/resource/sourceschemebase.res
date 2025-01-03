@@ -70,13 +70,13 @@ Scheme
 		Frame.TitleTextInsetX			16
 		Frame.ClientInsetX				8
 		Frame.ClientInsetY				6
-		Frame.BgColor					"160 160 160 128"	[$WIN32]
+		Frame.BgColor					"160 160 160 255"	[$WIN32]
 		Frame.BgColor					"80 80 80 192"		[$X360]
-		Frame.OutOfFocusBgColor			"160 160 160 32"	[$WIN32]
+		Frame.OutOfFocusBgColor			"160 160 160 255"	[$WIN32]
 		Frame.OutOfFocusBgColor			"80 80 80 192"		[$X360]
-		Frame.FocusTransitionEffectTime	"0.3"							// time it takes for a window to fade in/out on focus/out of focus
-		Frame.TransitionEffectTime		"0.3"				[$WIN32]	// time it takes for a window to fade in/out on open/close
-		Frame.TransitionEffectTime		"0.2"				[$X360]		// time it takes for a window to fade in/out on open/close
+		Frame.FocusTransitionEffectTime	"0.05"							// time it takes for a window to fade in/out on focus/out of focus
+		Frame.TransitionEffectTime		"0.05"				[$WIN32]	// time it takes for a window to fade in/out on open/close
+		Frame.TransitionEffectTime		"0.075"				[$X360]		// time it takes for a window to fade in/out on open/close
 		Frame.AutoSnapRange				"0"
 		FrameGrip.Color1				"200 200 200 196"
 		FrameGrip.Color2				"0 0 0 196"
@@ -216,6 +216,7 @@ Scheme
 		"QuickListBGDeselected"		"AchievementsDarkGrey"
 	 	"QuickListBGSelected"           "AchievementsLightGrey"
 	}
+
 
 	//////////////////////// BITMAP FONT FILES /////////////////////////////
 	//
@@ -917,8 +918,14 @@ Scheme
 
 		FrameBorder
 		{
-			// rounded corners for frames
-			"backgroundtype" "2"
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"replay/thumbnails/loadout_rect"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"11"	
 		}
 
 		DepressedBorder

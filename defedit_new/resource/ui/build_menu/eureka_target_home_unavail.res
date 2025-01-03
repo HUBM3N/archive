@@ -6,6 +6,10 @@
 	{	
 		"labelText"		"#Hud_Menu_Teleport_Base"
 	}
+		"BuildingIcon"	
+	{
+		"icon"			"eureka_teleport_home"
+	}
 	
 	"NumberLabel"
 	{	

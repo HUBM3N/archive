@@ -192,7 +192,7 @@
 	CHealthAccountPanel
 	{
 		"fieldName"				"CHealthAccountPanel"
-		"xpos"					"c-6"
+		"xpos"					"c-6"//c0
 		"ypos"					"c12"
 		"wide"					"116"
 		"tall"  				"180"
@@ -981,11 +981,11 @@
 		"fieldName" 	"HudMenuEngyBuild"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"c-225"
-		"ypos"			"c-55"
-		"wide"			"450"
-		"tall"			"195"
-		"zpos" "10"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos" "999"
+		"wide"			"f0"
+		"tall"			"f0"	[$WIN32]
 		"PaintBackgroundType"	"0"
 	}
 	
@@ -994,11 +994,11 @@
 		"fieldName" 	"HudMenuEngyDestroy"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"c-225"
-		"ypos"			"c-59"
-		"wide"			"450"
-		"tall"			"200"
-		"zpos" "10"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos" "999"
+		"wide"			"f0"
+		"tall"			"f0"	[$WIN32]
 		"PaintBackgroundType"	"0"
 	}
 
@@ -1007,11 +1007,11 @@
 		"fieldName" 	"HudEurekaEffectTeleportMenu"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"c-125"
-		"ypos"			"c-55"
-		"wide"			"250"
-		"tall"			"195"
-		"zpos" "10"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos" "999"
+		"wide"			"f0"
+		"tall"			"f0"	[$WIN32]
 		"PaintBackgroundType"	"0"
 	}
 	
@@ -1392,13 +1392,11 @@
 		"fieldName" 	"HudMenuTauntSelection"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"c-235"
-		"ypos"			"c-52"
-		"ypos_hidef"	"c-42"
-		"ypos_lodef"	"c-42"
-		"wide"			"470"
-		"tall"			"200"
-		"zpos" "10"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos" "999"
+		"wide"			"f0"
+		"tall"			"f0"	[$WIN32]
 		"PaintBackgroundType"	"0"
 	}
 

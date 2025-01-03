@@ -7,9 +7,9 @@
 		"visible" "1"
 		"enabled" "1"
 		"xpos"	 "cs-0.5"
-		"ypos"	 "29"
+		"ypos"	 "29+18"
 		"wide"	 "36"
-		"tall"	 "496"//14
+		"tall"	 "460"//14
 		"image" "replay/thumbnails/sniperscope_numbers"
 		"scaleImage" "1"
 	}

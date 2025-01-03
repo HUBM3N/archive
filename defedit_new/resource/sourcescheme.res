@@ -7,8 +7,8 @@ Scheme
 	// this is a list of all the colors used by the scheme
 	Colors
 	{
-	    "TFDarkBrown"               "60 56 53 255"
-	    "TFDarkBrownTransparent"    "60 56 53 190"
+	    "TFDarkBrown"               "58 53 46 255"
+	    "TFDarkBrownTransparent"    "58 53 46 190"
 	    "TFTanBright"               "236 227 203 150"
 	    "TFTanLight"                "201 188 162 150"
 	    "TFTanMedium"               "131 121 104 150"
@@ -77,8 +77,8 @@ Scheme
 		RadioButton.SelectedTextColor	"TFTextBright"
 		RadioButton.ArmedTextColor	"TFTextMedium"
 		
-		Frame.BgColor					"TFDarkBrown"
-		Frame.OutOfFocusBgColor			"TFDarkBrownTransparent"
+		Frame.BgColor					"blank"
+		Frame.OutOfFocusBgColor			"blank"
 		FrameGrip.Color1				"TFTanMedium"
 		FrameGrip.Color2				"TFDarkBrown"
 		FrameTitleButton.FgColor		"TFTanBright"
@@ -134,6 +134,17 @@ Scheme
 	
 	Fonts
 	{
+		"DefaultLarge"
+		{
+			"1"
+			{
+				"name"		"TF2 Build" [!$OSX]
+				"name"		"TF2 Build" [$OSX]
+				"tall"		"24"
+				"weight"	"400"
+				"antialias" "1"
+			}
+		}
 		"MainMenuFont"
 		{
 			"1"	[!$OSX]
@@ -171,7 +182,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Trebuchet MS"
 				"tall"		"20"
 				"weight"	"800"
 				"antialias" "1"
@@ -245,8 +256,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Arial" [!$OSX]
-				"name"		"Verdana Bold" [$OSX]
+				"name"		"Trebuchet MS" [!$OSX]
+				"name"		"Trebuchet MS Bold" [$OSX]
 				"weight"		"1500"
 				"tall"			"22" [!$OSX]
 				"tall"			"23" [$OSX]
@@ -258,8 +269,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Arial" [!$OSX]
-				"name"		"Verdana" [$OSX]
+				"name"		"Trebuchet MS" [!$OSX]
+				"name"		"Trebuchet MS" [$OSX]
 				"weight"		"1200"
 				"tall"			"18" [!$OSX]
 				"tall"			"16" [$OSX]

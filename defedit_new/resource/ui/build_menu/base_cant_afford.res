@@ -14,7 +14,7 @@
 		"tall"			"f0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"NOPE"
 		"textAlignment"	"Center"
@@ -26,6 +26,7 @@
 	}
 	"CostLabel"
 	{	
-		"ypos" "cs-0.5-4"
+		//"ypos" "cs-0.5-4"
+		"fgcolor" "255 128 128 255"
 	}
 }

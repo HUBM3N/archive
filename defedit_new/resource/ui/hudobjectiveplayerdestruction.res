@@ -48,21 +48,18 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayingTo"
-		"xpos"			"c-70"	[$WIN32]
-		"xpos"			"c-60"	[$X360]
-		"ypos"			"r28"	[$WIN32]
-		"ypos"			"r48"	[$X360]
+		"xpos"			"cs-0.5"	[$WIN32]
+		"ypos"			"rs1+4"	[$WIN32]
 		"zpos"			"4"
-		"wide"			"140"	[$WIN32]
-		"wide"			"120"	[$X360]
-		"tall"			"30"
+		"wide"			"105"	[$WIN32]
+		"tall"			"24"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#TF_PlayingTo"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"HudFontSmall"
+		"font"			"HudFontSmallest"
 		"fgcolor"		"TanLight"
 		
 		"if_hybrid"
@@ -79,21 +76,22 @@
 		{
 			"visible"	"0"
 		}
+		
+		"if_no_flags"
+		{
+			"visible"	"0"
+		}
 	}	
 			
-	"PlayingToBG"
+		"PlayingToBG"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayingToBG"
-		"xpos"			"c-75"	[$WIN32]
-		"xpos"			"c-70"	[$X360]
-		"ypos"			"r31"	[$WIN32]
-		"ypos"			"r51"	[$X360]
+		"xpos"			"cs-0.5"	[$WIN32]
+		"ypos"			"rs1+4"	[$WIN32]
 		"zpos"			"3"
-		"wide"			"150"	[$WIN32]
-		"wide"			"140"	[$X360]
-		"tall"			"38"	[$WIN32]
-		"tall"			"35"	[$X360]
+		"wide"			"105"	[$WIN32]
+		"tall"			"24"	[$WIN32]
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/objectives_flagpanel_bg_playingto"
@@ -114,7 +112,12 @@
 		{
 			"visible"	"0"
 		}
-	}
+		
+		"if_no_flags"
+		{
+			"visible"	"0"
+		}
+	}	
 
 	"CarriedContainer"
 	{
@@ -122,6 +125,8 @@
 		"fieldName"			"CarriedContainer"
 		"xpos"				"0"
 		"ypos"				"r100"
+		"xpos_minmode"				"-22"
+		"ypos_minmode"				"r132"
 		"zpos"				"1"
 		"wide"				"100"
 		"tall"				"100"
@@ -245,11 +250,11 @@
 	{
 		"fieldName"				"ScoreContainer"
 		"ControlName"			"EditablePanel"
-		"xpos"					"c-200"
-		"ypos"					"r131"
+		"xpos"					"0"
+		"ypos"					"0"
 		"zpos"					"0"
-		"wide"					"400"
-		"tall"					"120"
+		"wide"					"f0"
+		"tall"					"f0"
 		"scaleimage"			"0"
 		"visible"				"1"
 		"enabled"				"1"
@@ -258,11 +263,11 @@
 		{
 			"fieldName"				"ProgressBarContainer"
 			"ControlName"			"EditablePanel"
-			"xpos"					"c-150"
-			"ypos"					"r61"
+			"xpos"					"0"
+			"ypos"					"0"
 			"zpos"					"1"
-			"wide"					"300"
-			"tall"					"60"
+			"wide"					"f0"
+			"tall"					"f0"
 			"visible"				"1"
 			"enabled"				"1"
 			"proportionalToParent"	"1"
@@ -274,10 +279,10 @@
 				"xpos"					"0"
 				"ypos"					"0"
 				"zpos"					"10"
-				"wide"					"f0"
-				"tall"					"f0"
+				"wide"					"0"
+				"tall"					"0"
 				"scaleimage"			"1"
-				"visible"				"1"
+				"visible"				"0"
 				"enabled"				"1"
 				"Image"					"../hud/objectives_corepanel_bg"
 				"proportionalToParent"	"1"
@@ -292,7 +297,7 @@
 				"zpos"			"4"
 				"wide"			"14"
 				"tall"			"14"
-				"visible"		"1"
+				"visible"		"0"
 				"enabled"		"1"
 				"image"			"../hud/hud_obj_status_ammo_64"
 				"scaleImage"	"1"
@@ -303,8 +308,8 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"EscrowBlue"
-				"xpos"			"40"
-				"ypos"			"7"
+				"xpos"			"cs-1.5"
+				"ypos"			"r35"
 				"zpos"			"4"
 				"wide"			"25"
 				"tall"			"16"
@@ -313,7 +318,7 @@
 				"textAlignment"	"center"	
 				"labelText"		"%blue_escrow%"
 				"font"			"HudFontMediumSmallBold"
-				"fgcolor"		"TanLight"		
+				"fgcolor"		"128 128 255 255"		
 				"proportionalToParent"	"1"
 			}
 			
@@ -321,8 +326,8 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"EscrowBlueShadow"
-				"xpos"			"41"
-				"ypos"			"8"
+				"xpos"			"-1"
+				"ypos"			"-1"
 				"zpos"			"4"
 				"wide"			"25"
 				"tall"			"16"
@@ -331,8 +336,9 @@
 				"textAlignment"	"center"	
 				"labelText"		"%blue_escrow%"
 				"font"			"HudFontMediumSmallBold"
-				"fgcolor"		"Black"		
+				"fgcolor"		"Shadows"		
 				"proportionalToParent"	"1"
+				"pin_to_sibling" "EscrowBlue"
 			}
 
 			"FlagImageRed"
@@ -344,7 +350,7 @@
 				"zpos"			"4"
 				"wide"			"14"
 				"tall"			"14"
-				"visible"		"1"
+				"visible"		"0"
 				"enabled"		"1"
 				"image"			"../hud/hud_obj_status_ammo_64"
 				"scaleImage"	"1"
@@ -355,8 +361,8 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"EscrowRed"
-				"xpos"			"235"
-				"ypos"			"7"
+				"xpos"			"cs0.5"
+				"ypos"			"r35"
 				"zpos"			"4"
 				"wide"			"25"
 				"tall"			"16"
@@ -365,7 +371,7 @@
 				"textAlignment"	"center"	
 				"labelText"		"%red_escrow%"
 				"font"			"HudFontMediumSmallBold"
-				"fgcolor"		"TanLight"		
+				"fgcolor"		"255 128 128 255"		
 				"proportionalToParent"	"1"
 			}
 			
@@ -373,8 +379,8 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"EscrowRedShadow"
-				"xpos"			"236"
-				"ypos"			"8"
+				"xpos"			"-1"
+				"ypos"			"-1"
 				"zpos"			"4"
 				"wide"			"25"
 				"tall"			"16"
@@ -383,16 +389,17 @@
 				"textAlignment"	"center"	
 				"labelText"		"%red_escrow%"
 				"font"			"HudFontMediumSmallBold"
-				"fgcolor"		"Black"		
+				"fgcolor"		"Shadows"		
 				"proportionalToParent"	"1"
+				"pin_to_sibling" "EscrowRed"
 			}
 
 			"BlueVictoryContainer"
 			{
 				"fieldName"				"BlueVictoryContainer"
 				"ControlName"			"EditablePanel"
-				"xpos"					"25"
-				"ypos"					"22"
+				"xpos"					"0"
+				"ypos"					"0"
 				"zpos"					"5"
 				"wide"					"f0"
 				"tall"					"f0"
@@ -404,14 +411,14 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"VictoryLabel"
-					"xpos"			"0"
-					"ypos"			"0"
+					"xpos"			"cs-0.5-10"
+					"ypos"			"r60"
 					"zpos"			"8"
 					"wide"			"95"
 					"tall"			"35"
 					"visible"		"1"
 					"enabled"		"1"
-					"textAlignment"	"west"	
+					"textAlignment"	"center"	
 					"labelText"		"#TF_RD_BlueFinale"
 					"font"			"HudFontSmallBold"
 					"fgcolor"		"TanLight"		
@@ -422,18 +429,19 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"VictoryLabelShadow"
-					"xpos"			"1"
-					"ypos"			"1"
+					"xpos"			"-1"
+					"ypos"			"-1"
 					"zpos"			"7"
 					"wide"			"95"
 					"tall"			"35"
 					"visible"		"1"
 					"enabled"		"1"
-					"textAlignment"	"west"	
+					"textAlignment"	"center"	
 					"labelText"		"#TF_RD_BlueFinale"
 					"font"			"HudFontSmallBold"
-					"fgcolor"		"Black"		
+					"fgcolor"		"Shadows"		
 					"proportionalToParent"	"1"
+					"pin_to_sibling" "VictoryLabel"
 				}
 
 				"VictoryLabelTime"
@@ -443,11 +451,11 @@
 					"xpos"			"0"
 					"ypos"			"0"
 					"zpos"			"8"
-					"wide"			"55"
+					"wide"			"20"
 					"tall"			"35"
 					"visible"		"1"
 					"enabled"		"1"
-					"textAlignment"	"west"	
+					"textAlignment"	"center"	
 					"labelText"		"%victorytime%"
 					"font"			"HudFontSmallBold"
 					"fgcolor"		"TanLight"		
@@ -462,22 +470,20 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"VictoryLabelTimeShadow"
-					"xpos"			"1"
-					"ypos"			"1"
+					"xpos"			"-1"
+					"ypos"			"-1"
 					"zpos"			"7"
-					"wide"			"55"
+					"wide"			"20"
 					"tall"			"35"
 					"visible"		"1"
 					"enabled"		"1"
-					"textAlignment"	"west"	
+					"textAlignment"	"center"	
 					"labelText"		"%victorytime%"
 					"font"			"HudFontSmallBold"
-					"fgcolor"		"Black"		
+					"fgcolor"		"shadows"		
 					"proportionalToParent"	"1"
 
-					"pin_to_sibling"               "VictoryLabel"
-					"pin_corner_to_sibling"        "7"          
-					"pin_to_sibling_corner"        "5"  
+					"pin_to_sibling"               "VictoryLabelTime"
 				}
 			}
 
@@ -488,10 +494,10 @@
 				"xpos"					"0"
 				"ypos"					"0"
 				"zpos"					"2"
-				"wide"					"150"
+				"wide"					"0"
 				"tall"					"f0"
 				"scaleimage"			"0"
-				"visible"				"1"
+				"visible"				"0"
 				"proportionalToParent"	"1"
 				"positionImage"			"0"
 				"drawcolor"				"84 111 127 255"
@@ -513,10 +519,10 @@
 				"xpos"					"0"
 				"ypos"					"0"
 				"zpos"					"1"
-				"wide"					"150"
+				"wide"					"0"
 				"tall"					"f0"
 				"scaleimage"			"0"
-				"visible"				"1"
+				"visible"				"0"
 				"proportionalToParent"	"1"
 				"positionImage"			"0"
 				"drawcolor"				"141 160 171 255"
@@ -535,8 +541,8 @@
 			{
 				"fieldName"				"RedVictoryContainer"
 				"ControlName"			"EditablePanel"
-				"xpos"					"25"
-				"ypos"					"22"
+				"xpos"					"0"
+				"ypos"					"0"
 				"zpos"					"5"
 				"wide"					"f0"
 				"tall"					"f0"
@@ -544,19 +550,19 @@
 				"enabled"				"1"
 				"proportionalToParent"	"1"
 
-				"VictoryLabel"
+						"VictoryLabel"
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"VictoryLabel"
-					"xpos"			"140"
-					"ypos"			"0"
+					"xpos"			"cs-0.5-10"
+					"ypos"			"r60"
 					"zpos"			"8"
-					"wide"			"90"
+					"wide"			"95"
 					"tall"			"35"
 					"visible"		"1"
 					"enabled"		"1"
-					"textAlignment"	"west"	
-					"labelText"		"#TF_RD_RedFinale"
+					"textAlignment"	"center"	
+					"labelText"		"#TF_RD_BlueFinale"
 					"font"			"HudFontSmallBold"
 					"fgcolor"		"TanLight"		
 					"proportionalToParent"	"1"
@@ -566,18 +572,19 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"VictoryLabelShadow"
-					"xpos"			"141"
-					"ypos"			"1"
+					"xpos"			"-1"
+					"ypos"			"-1"
 					"zpos"			"7"
-					"wide"			"90"
+					"wide"			"95"
 					"tall"			"35"
 					"visible"		"1"
 					"enabled"		"1"
-					"textAlignment"	"west"	
-					"labelText"		"#TF_RD_RedFinale"
+					"textAlignment"	"center"	
+					"labelText"		"#TF_RD_BlueFinale"
 					"font"			"HudFontSmallBold"
-					"fgcolor"		"Black"		
+					"fgcolor"		"Shadows"		
 					"proportionalToParent"	"1"
+					"pin_to_sibling" "VictoryLabel"
 				}
 
 				"VictoryLabelTime"
@@ -587,11 +594,11 @@
 					"xpos"			"0"
 					"ypos"			"0"
 					"zpos"			"8"
-					"wide"			"55"
+					"wide"			"20"
 					"tall"			"35"
 					"visible"		"1"
 					"enabled"		"1"
-					"textAlignment"	"west"	
+					"textAlignment"	"center"	
 					"labelText"		"%victorytime%"
 					"font"			"HudFontSmallBold"
 					"fgcolor"		"TanLight"		
@@ -606,22 +613,20 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"VictoryLabelTimeShadow"
-					"xpos"			"1"
-					"ypos"			"1"
+					"xpos"			"-1"
+					"ypos"			"-1"
 					"zpos"			"7"
-					"wide"			"55"
+					"wide"			"20"
 					"tall"			"35"
 					"visible"		"1"
 					"enabled"		"1"
-					"textAlignment"	"west"	
+					"textAlignment"	"center"	
 					"labelText"		"%victorytime%"
 					"font"			"HudFontSmallBold"
-					"fgcolor"		"Black"		
+					"fgcolor"		"shadows"		
 					"proportionalToParent"	"1"
 
-					"pin_to_sibling"               "VictoryLabel"
-					"pin_corner_to_sibling"        "7"          
-					"pin_to_sibling_corner"        "5"  
+					"pin_to_sibling"               "VictoryLabelTime"
 				}
 			}
 
@@ -632,7 +637,7 @@
 				"xpos"					"150"
 				"ypos"					"0"
 				"zpos"					"2"
-				"wide"					"150"
+				"wide"					"0"
 				"tall"					"f0"
 				"scaleimage"			"0"
 				"positionImage"			"0"
@@ -657,7 +662,7 @@
 				"xpos"					"150"
 				"ypos"					"0"
 				"zpos"					"1"
-				"wide"					"150"
+				"wide"					"0"
 				"tall"					"f0"
 				"scaleimage"			"0"
 				"positionImage"			"0"
@@ -680,11 +685,11 @@
 		{
 			"ControlName"		"EditablePanel"
 			"fieldName"			"BlueScoreValueContainer"
-			"xpos"				"80"
-			"ypos"				"r48"
+			"xpos"				"0"
+			"ypos"				"0"
 			"zpos"				"10"
-			"wide"				"60"
-			"tall"				"60"
+			"wide"				"f0"
+			"tall"				"f0"
 			"visible"			"1"
 			"enabled"			"1"
 			"bgcolor_override"		"0 0 0 0"
@@ -694,18 +699,16 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"Score"
-				"xpos"			"c-27"
-				"ypos"			"c-20"
-				"zpos"			"8"
-				"wide"			"55"
-				"tall"			"35"
-				"visible"		"1"
-				"enabled"		"1"
-				"textAlignment"	"west"	
+		"xpos"			"c-130"
+		"ypos"			"rs1+3"
+		"zpos"			"8"
+		"wide"			"75"
+		"tall"			"24"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"east"	
 				"labelText"		"%score%"
-				"font"			"HudFontMediumBold"
-				"font_hidef"	"HudFontGiant"
-				"font_lodef"	"HudFontGiant"
+				"font"			"HudFontMedium"
 				"fgcolor"		"TanLight"		
 				"proportionalToParent"	"1"
 			}	
@@ -714,20 +717,19 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"ScoreShadow"
-				"xpos"			"c-26"
-				"ypos"			"c-19"
-				"zpos"			"7"
-				"wide"			"55"
-				"tall"			"35"
-				"visible"		"1"
-				"enabled"		"1"
-				"textAlignment"	"west"	
+		"xpos"			"s-0.02"
+		"ypos"			"s-0.0625"
+		"zpos"			"8"
+		"wide"			"75"
+		"tall"			"24"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"east"	
 				"labelText"		"%score%"
-				"font"			"HudFontMediumBold"
-				"font_hidef"	"HudFontGiant"
-				"font_lodef"	"HudFontGiant"
-				"fgcolor"		"Black"		
+				"font"			"HudFontMedium"
+				"fgcolor"		"Shadows"		
 				"proportionalToParent"	"1"
+				"pin_to_sibling" "Score"
 			}
 		}
 
@@ -735,11 +737,11 @@
 		{
 			"ControlName"		"EditablePanel"
 			"fieldName"			"RedScoreValueContainer"
-			"xpos"				"r140"
-			"ypos"				"r48"
+			"xpos"				"0"
+			"ypos"				"0"
 			"zpos"				"10"
-			"wide"				"60"
-			"tall"				"60"
+			"wide"				"f0"
+			"tall"				"f0"
 			"visible"			"1"
 			"enabled"			"1"
 			"bgcolor_override"		"0 0 0 0"
@@ -749,14 +751,14 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"Score"
-				"xpos"			"c-27"
-				"ypos"			"c-20"
-				"zpos"			"8"
-				"wide"			"55"
-				"tall"			"35"
+		"xpos"			"c57"
+		"ypos"			"rs1+3"
+		"zpos"			"8"
+		"wide"			"75"
+		"tall"			"24"
 				"visible"		"1"
 				"enabled"		"1"
-				"textAlignment"	"east"	
+				"textAlignment"	"west"	
 				"labelText"		"%score%"
 				"font"			"HudFontMediumBold"
 				"font_hidef"	"HudFontGiant"
@@ -769,20 +771,19 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"ScoreShadow"
-				"xpos"			"c-26"
-				"ypos"			"c-19"
-				"zpos"			"7"
-				"wide"			"55"
-				"tall"			"35"
+		"xpos"			"s-0.02"
+		"ypos"			"s-0.0625"
+		"zpos"			"7"
+		"wide"			"75"
+		"tall"			"24"
 				"visible"		"1"
 				"enabled"		"1"
-				"textAlignment"	"east"	
+				"textAlignment"	"west"	
 				"labelText"		"%score%"
-				"font"			"HudFontMediumBold"
-				"font_hidef"	"HudFontGiant"
-				"font_lodef"	"HudFontGiant"
-				"fgcolor"		"Black"		
+	"font"			"HudFontMedium"
+				"fgcolor"		"Shadows"		
 				"proportionalToParent"	"1"
+				"pin_to_sibling" "Score"
 			}
 		}
 
@@ -991,11 +992,11 @@
 	{
 		"ControlName"			"EditablePanel"
 		"fieldName"				"CountdownContainer"
-		"xpos"					"c-150"
-		"ypos"					"r110"
+		"xpos"					"0"
+		"ypos"					"0"
 		"zpos"					"1"
-		"wide"					"300"
-		"tall"					"110"
+		"wide"					"f0"
+		"tall"					"f0"
 		"visible"				"0"
 		"enabled"				"1"
 
@@ -1008,7 +1009,7 @@
 			"zpos"			"1"
 			"wide"			"90"
 			"tall"			"45"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 			"image"			"../hud/ammo_blue_bg"
 			"scaleImage"	"1"	
@@ -1025,7 +1026,7 @@
 			"ypos"			"15"
 			"zpos"			"2"
 			"wide"			"35"
-			"tall"			"35"
+			"tall"			"0"
 			"visible"		"0"
 			"enabled"		"1"
 			"image"			"../hud/arrow_big_down"
@@ -1037,8 +1038,8 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CountdownLabelTime"
-			"xpos"			"150"
-			"ypos"			"17"
+			"xpos"			"cs-0.5"
+			"ypos"			"r80"
 			"zpos"			"8"
 			"wide"			"35"
 			"tall"			"35"
@@ -1055,8 +1056,8 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CountdownLabelTimeTimeShadow"
-			"xpos"			"151"
-			"ypos"			"18"
+			"xpos"			"s-0.04285714286"
+			"ypos"			"s-0.04285714286"
 			"zpos"			"7"
 			"wide"			"35"
 			"tall"			"35"
@@ -1065,8 +1066,9 @@
 			"textAlignment"	"center"	
 			"labelText"		"%countdowntime%"
 			"font"			"HudFontMediumBold"
-			"fgcolor"		"Black"		
+			"fgcolor"		"shadows"		
 			"proportionalToParent"	"1"
+			"pin_to_sibling" "CountdownLabelTime"
 		}
 	}
 }

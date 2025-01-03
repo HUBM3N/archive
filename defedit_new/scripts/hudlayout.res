@@ -769,7 +769,7 @@
 		"xpos"					"c-240"
 		"ypos"					"c60"
 		"wide"					"480"
-		"tall"					"100"
+		"tall"					"0"
 		"HintSize"				"1"
 		"text_xpos"				"8"
 		"text_ypos"				"8"

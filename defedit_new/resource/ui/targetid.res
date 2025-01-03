@@ -293,7 +293,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"icon"			"obj_status_sentrygun_1"
-			"drawcolor"		"ProgressOffWhite"
+			"drawcolor"		"white"
 			"scaleImage"	"1"
 		}
 		"MoveableSymbolIcon"
@@ -308,7 +308,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"../hud/eng_sel_item_movable"
-			"drawcolor"		"ProgressOffWhite"
+			"drawcolor"		"white"
 			"scaleImage"	"1"
 		}
 
@@ -316,13 +316,12 @@
 		{	
 			"ControlName"		"Label"
 			"fieldName"		"MoveableKeyLabel"
-			"font"			"TFFontMedium"
-			"font_minmode"	"DefaultVerySmall"
+			"font"			"defaultlarge"
 			"xpos"			"0"
-			"ypos"			"22"
+			"ypos"			"10"
 			"zpos"			"1"
 			"wide"			"640"
-			"tall"			"24"
+			"tall"			"44"
 			"autoResize"		"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -331,6 +330,7 @@
 			"textAlignment"		"North"
 			"dulltext"		"0"
 			"brighttext"		"0"
+			"textinsety" "-2"
 		}	
 	}
 	"AvatarImage"

@@ -138,6 +138,18 @@ event HudMedicChargedStop
 
 //====================================
 
+event RDPositiveScorePulse
+{
+	Animate Score FgColor	"128 255 128 255"		Linear 0.0 0.0
+	Animate Score FgColor	"TanLight"			Linear 0.1 0.2
+}
+
+event RDNegativeScorePulse
+{
+	Animate Score FgColor	"255 128 128 255"		Linear 0.0 0.0
+	Animate Score FgColor	"TanLight"			Linear 0.1 0.2
+}
+
 
 event ControlPointIconShrink{}
 event ControlPointIconGrow{}

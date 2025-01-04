@@ -149,6 +149,16 @@ event RDNegativeScorePulse
 	Animate Score FgColor	"255 128 128 255"		Linear 0.0 0.0
 	Animate Score FgColor	"TanLight"			Linear 0.1 0.2
 }
+event TeamStatus_PlayerDead
+{
+	SetVisible DeathPanel  1 0
+	SetVisible SkullPanel  1 0
+	SetVisible respawntime  1 0
+
+	Animate DeathPanel ypos 19 Accel 0 0.2
+	Animate SkullPanel ypos 20 Accel 0 0.2
+	Animate respawntime ypos 10 Accel 0 0.2
+}
 
 
 event ControlPointIconShrink{}

@@ -8,7 +8,7 @@
 		"xpos"			"0"	[$WIN32]
 		"ypos"			"0"	[$WIN32]
 		"zpos" "-90"
-		"wide"			"f0"//f0
+		"wide"			"0"//f0
 		"tall"			"f0"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"

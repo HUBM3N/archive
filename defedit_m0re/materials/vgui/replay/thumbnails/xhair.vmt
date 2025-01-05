@@ -1,0 +1,14 @@
+"UnlitGeneric"
+{
+	"$translucent" 1
+	"$basetexture" "vgui\replay\thumbnails\xhair"
+	"$vertexcolor" 1
+	"$no_fullbright" 1
+	"$ignorez" 1
+	"$alpha" "0.5"
+	
+    <dx90
+	{
+		 	"$alpha" "1"
+	}
+}

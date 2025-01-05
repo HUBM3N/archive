@@ -1,4 +1,4 @@
-#base "basedialog.res"
+#base "LoadingDialogError.res"
 "Resource/LoadingDialogErrorNoSteamConnection.res"
 {
 	"progress"
